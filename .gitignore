@@ -1,0 +1,11 @@
+/cache/*
+configuration.php
+
+# Mac
+.DS_Store
+
+# jIdea
+.idea
+
+#htaccess
+.htaccess
