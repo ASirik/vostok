@@ -1,6 +1,6 @@
 /cache/*
 configuration.php
-
+/tmp/*
 # Mac
 .DS_Store
 
