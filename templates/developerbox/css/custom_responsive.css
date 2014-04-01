@@ -1,0 +1,229 @@
+ /*======================================================================*\
+|| #################################################################### ||
+|| # Package - Joomla Template based on YJSimpleGrid Framework          ||
+|| # Copyright (C) 2010  Youjoomla.com. All Rights Reserved.            ||
+|| # license - PHP files are licensed under  GNU/GPL V2                 ||
+|| # license - CSS  - JS - IMAGE files  are Copyrighted material        ||
+|| # bound by Proprietary License of Youjoomla.com                      ||
+|| # for more information visit http://www.youjoomla.com/license.html   ||
+|| # Redistribution and  modification of this software                  ||
+|| # is bounded by its licenses                                         ||
+|| # websites - http://www.youjoomla.com | http://www.yjsimplegrid.com  ||
+|| #################################################################### ||
+\*======================================================================*/
+ 
+@media screen and (max-width: 980px) {
+	.top_menu_poz_navbar,
+	#mmenu_holder{
+		width:280px!important;
+		margin-top:10px;
+		margin-bottom:30px;
+	}
+	#default_video{
+		width:100%!important;
+	}
+}
+@media only screen and (min-width: 981px) and (max-width: 1199px) {
+ .top_menu {
+  width:inherit!important;
+ }
+}
+/*Image Slider*/
+@media screen and (max-width: 1200px) {
+.dbis .slidearrows,
+.dbis .slidearrows.slideRight{
+	top:120px!important;
+}
+.dbis .YJSlide_intro{
+	bottom:80px;
+}
+}
+@media screen and (max-width: 980px) {
+.dbis .YJSlide_intro{
+	display:none;
+}
+}
+@media screen and (max-width: 640px) {
+.dbis .slidearrows,
+.dbis .slidearrows.slideRight{
+	display:none!important;
+}
+}
+/*Team members*/
+@media screen and (max-width: 1200px) {
+.team_holder{
+	width:50%;
+}
+.team_holder img{
+	max-width:100%;
+	width:100%;
+	height:auto;
+}
+}
+@media screen and (max-width: 480px) {
+.team_holder{
+	width:100%;
+}
+}
+/*Color boxes*/
+@media screen and (max-width: 1200px) {
+.box_holder{
+	width:25%;
+}
+}
+@media screen and (max-width: 770px) {
+.box_holder{
+	width:50%;
+}
+}
+@media screen and (max-width: 480px) {
+.box_holder{
+	width:100%;
+}
+}
+/*Engine*/
+@media screen and (max-width: 1200px) {
+.dbme .yjme_item{
+	width:100%;
+	margin:10px 0;
+}
+#user6,#user7{
+	width:100%!important;
+}
+.dbme.yjme2 .yjme_item {
+	width:100%;
+	margin:0 0 20px 0;
+}
+.dbme.yjme2 .yjme_item div.imageholder{
+	float:none!important;
+	margin:0 0 20px 0;
+	width:100%!important;
+	max-width:100%;
+	height:auto!important;
+}
+.dbme.yjme2 .yjme_item a.item_image,
+.dbme .yjme_item div.imageholder img{
+	width:100%!important;
+	max-width:100%;
+	height:auto!important;
+}
+}
+@media screen and (max-width: 565px) {
+.dbme .yjme_item_in{
+	padding:0!important;
+}
+.dbme .yjme_item div.imageholder{
+	float:none!important;
+	margin:0 0 20px 0;
+	width:100%!important;
+	max-width:100%;
+}
+.dbme .yjme_item a.item_image,
+.dbme .yjme_item div.imageholder img{
+	width:100%!important;
+	max-width:100%;
+	height:auto;
+}
+.dbme .yjme_item a.item_title{
+	float:none;
+	clear:both;
+	width:100%;
+	text-align:center;
+	margin:15px 0;
+}
+.dbme .yjme_item div.item_details{
+	margin:0 auto 10px auto;
+	width:170px;
+}
+.dbme .yjme_item p.item_intro{
+	clear:both;
+	text-align:center;
+}
+.dbme .yjme_item a.item_readmore,
+.dbme.yjme2 .yjme_item a.item_readmore{
+	margin:15px auto;
+	float:none;
+}
+}
+/*York*/
+@media screen and (max-width: 1200px) {
+.york2{
+	width:45%;
+}
+}
+@media screen and (max-width: 820px) {
+.york2{
+	width:100%;
+	margin:0 0 20px 0;
+}
+}
+@media screen and (max-width: 675px) {
+.dbym .yy_container,
+.dbym .yy_slider,
+.dbym .yy_slider .yy_slideitems,
+.dbym .yy_slider .yy_slideitems_in {
+	width:100%!important;
+}
+.dbym.york2 .yy_container,
+.dbym.york2 .yy_slider,
+.dbym.york2 .yy_slider .yy_slideitems,
+.dbym.york2 .yy_slider .yy_slideitems_in {
+	height:170px!important;
+	width:280px!important;
+}
+}
+@media screen and (max-width: 495px) {
+.dbym .yy_container,
+.dbym .yy_slider,
+.dbym .yy_slider .yy_slideitems,
+.dbym .yy_slider .yy_slideitems_in {
+	height:380px!important;
+}
+.dbym .yjme_item div.imageholder{
+	float:none!important;
+	margin:0 0 20px 0;
+	width:100%!important;
+	max-width:100%;
+}
+.dbym .yjme_item a.item_image,
+.dbym .yjme_item div.imageholder img,
+.dbym .yj_hover_effect{
+	width:100%!important;
+	max-width:100%;
+	height:auto;
+}
+.dbym .yjme_item a.item_title{
+	clear:both;
+}
+.dbym .yjme_item a.item_readmore{
+	position:relative;
+	float:left;
+	clear:both;
+	margin:10px 0;
+}
+.dbym .yy_container .linkForward,
+.dbym .yy_container .linkBackward {
+	top:auto;
+	bottom:10px;
+}
+}
+@media screen and (max-width: 820px) {
+.dbsm{
+	margin:0;
+	width:95%;
+}
+.dbsm .inputbox_email{
+	width:70%;
+}
+}
+@media screen and (max-width: 435px) {
+.dbsm .inputbox_email{
+	width:50%;
+}
+.dbym.york2 .yy_container,
+.dbym.york2 .yy_slider,
+.dbym.york2 .yy_slider .yy_slideitems,
+.dbym.york2 .yy_slider .yy_slideitems_in {
+	width:220px!important;
+}
+}

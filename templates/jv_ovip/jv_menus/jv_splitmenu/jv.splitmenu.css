@@ -1,0 +1,213 @@
+div.menusys_split {
+	margin: 0;
+	padding: 0;
+}
+
+#menusys_split {
+	margin: 0;
+	padding: 0 0 0 1px;
+	overflow: hidden;
+	height: 38px;
+	background: url(../../images/li-main.jpg) no-repeat top left;
+}
+
+#menusys_split ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+#menusys_split li {
+	margin: 0;
+	padding: 0 1px 0 0;
+	float: left;
+	display: block;
+	background: none;
+	border: 0;
+	cursor: pointer;
+	background: url(../../images/li-main.jpg) no-repeat top right;
+}
+
+#menusys_split li ul {
+	display: none;
+}
+
+/* Menu styling begin */
+#menusys_split li a {
+	padding: 0;
+	display: block;
+	color: #ecccd1;
+	text-decoration: none;
+	cursor: pointer; /*line-height: 29px;*/
+}
+#menusys_split li a span {
+	padding: 0 17px;
+	height: 38px;
+	line-height: 38px;
+	border: none;
+	color: #FFF;
+	font-family: "Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-weight: normal;
+}
+/*
+#menusys_split li a.item:hover span, 
+#menusys_split li a.item:active span, 
+#menusys_split li a.item:focus span {
+	color: #FFF;
+}
+
+#menusys_split li a.active span {
+	border: none;
+	color: #FFF;
+}
+*/
+#menusys_split li a:hover, 
+#menusys_split li a:active, 
+#menusys_split li a:focus {
+	border: none;
+	display: block;
+	color: #FFFFFF;
+	
+}
+
+#menusys_split li:hover a, 
+#menusys_split li.hover a, 
+#menusys_split li.havechildhover a, 
+#menusys_split li.havechild-activehover a {
+	background: url(../../images/menu-hover.jpg) repeat-x top center;
+	border: none;
+	color: #FFFFFF;
+	display: block;
+}
+
+#menusys_split li:hover a span, 
+#menusys_split li.hover a span, 
+#menusys_split li.havechildhover a span, 
+#menusys_split li.havechild-activehover a span {
+	border: none;
+	color: #FFFFFF;
+	display: block;
+}
+
+#menusys_split li a.active, 
+#menusys_split li a.active:hover, 
+#menusys_split li a.active:active, 
+#menusys_split li a.active:focus {
+	background: url(../../images/menu-active-r.jpg) right top no-repeat;
+	border: none;
+	color: #FFFFFF;
+	display: block;
+}
+#menusys_split li a.active span, 
+#menusys_split li a.active:hover span, 
+#menusys_split li a.active:active span, 
+#menusys_split li a.active:focus span {
+	background: url(../../images/menu-active-l.jpg) left top no-repeat;
+	border: none;
+	color: #FFFFFF;
+	display: block;
+}
+#menusys_split li ul a:hover, 
+#menusys_split li ul a:active, 
+#menusys_split li ul a:focus, 
+#menusys_split ul li:hover, 
+#menusys_split ul li.hover, 
+#menusys_split ul li.havesubchildhover, 
+#menusys_split ul li.havesubchild-activehover, 
+#menusys_split ul ul li:hover, 
+#menusys_split ul ul li.hover, 
+#menusys_split ul ul li.havesubchildhover, 
+#menusys_split ul ul li.havesubchild-activehover {
+	background: none;
+}
+
+#menusys_split ul li a.active {
+	background: none !important;
+}
+
+#jv-sub-menu {
+	font-size: 110%;
+	overflow: hidden;
+	height: 34px;
+}
+
+#jv-sub-menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: left;
+}
+
+#jv-sub-menu .menusys_split li {
+	padding: 0px 5px 0px 5px;
+	display: inline;
+	background: none;
+	cursor: pointer;
+}
+
+#jv-sub-menu .menusys_split li a {
+	padding: 10px 5px 0 5px;
+	text-decoration: none;
+	line-height: 27px;
+}
+
+#jv-sub-menu .menusys_split li a span {
+	color: #FFF;
+	background: none;
+}
+
+#jv-sub-menu .menusys_split li a:hover,
+#jv-sub-menu .menusys_split li a:active,
+#jv-sub-menu .menusys_split li a:focus {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+#jv-sub-menu .menusys_split li:hover a,
+#jv-sub-menu .menusys_split li.hover a,
+#jv-sub-menu .menusys_split li.havechildhover a,
+#jv-sub-menu .menusys_split li.havechild-activehover a {
+	/*color: #FFFFFF;*/
+}
+
+#jv-sub-menu .menusys_split li a.active,
+#jv-sub-menu .menusys_split li a.active:hover,
+#jv-sub-menu .menusys_split li a.active:active,
+#jv-sub-menu .menusys_split li a.active:focus {
+	/*color: #FFFFFF;
+	background: #000000;*/
+
+}
+
+#jv-sub-menu .menusys_split li ul a:hover,
+#jv-sub-menu .menusys_split li ul a:active,
+#jv-sub-menu .menusys_split li ul a:focus,
+#jv-sub-menu .menusys_split ul li:hover,
+#jv-sub-menu .menusys_split ul li.hover,
+#jv-sub-menu .menusys_split ul ul li:hover,
+#jv-sub-menu .menusys_split ul ul li.hover {
+	/*color: #FFFFFF !important;*/
+}
+
+#jv-sub-menu .menusys_split li ul a:hover span,
+#jv-sub-menu .menusys_split li ul a:active span,
+#jv-sub-menu .menusys_split li ul a:focus span,
+#jv-sub-menu .menusys_split ul li:hover span,
+#jv-sub-menu .menusys_split ul li.hover span,
+#jv-sub-menu .menusys_split ul ul li:hover span,
+#jv-sub-menu .menusys_split ul ul li.hover span {
+	/*text-decoration: underline;*/
+}
+
+#jv-sub-menu .menusys_split ul li a.active {
+	background: none !important;
+	/*color: #FFFFFF !important;*/
+	font-weight: bold;
+}
+
+#jv-sub-menu .menusys_split ul li a.active:hover,
+#jv-sub-menu .menusys_split ul li a.active:active,
+#jv-sub-menu .menusys_split ul li a.active:focus {
+	/*color: #FFFFFF !important;*/
+	text-decoration: underline;
+}

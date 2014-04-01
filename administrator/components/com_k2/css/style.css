@@ -1,0 +1,115 @@
+/*
+// "K2" Component by JoomlaWorks for Joomla! 1.5.x - Version 2.1
+// Copyright (c) 2006 - 2009 JoomlaWorks Ltd. All rights reserved.
+// Released under the GNU/GPL license: http://www.gnu.org/copyleft/gpl.html
+// More info at http://www.joomlaworks.gr and http://k2.joomlaworks.gr
+// Designed and developed by the JoomlaWorks team
+// *** Last update: September 9th, 2009 ***
+*/
+
+/* Common */
+a:active,
+a:focus {outline:0;}
+.clr {clear:both;height:0;line-height:0;float:none;}
+
+/* Header */
+.icon-48-generic {background:url(../images/K2logo.gif) no-repeat 0 50% !important;}
+.header {color:#222 !important;font-size:24px !important;padding-left:120px !important;}
+
+/* Footer */
+#k2AdminFooter {text-align:center;margin-top:20px;}
+
+/* Tab Styling */
+div.simpleTabs {padding:0;}
+ul.simpleTabsNavigation {margin:0 10px;padding:0;text-align:left;}
+ul.simpleTabsNavigation li {list-style:none;display:inline;margin:0;padding:0;}
+ul.simpleTabsNavigation li a {border:1px solid #E0E0E0;padding:4px 10px;background:#F0F0F0;font-size:12px;text-decoration:none;font-family:Arial, Helvetica, sans-serif;color:#666666;font-weight:normal;}
+ul.simpleTabsNavigation li a:hover {text-decoration:none;background-color:#F6F6F6;font-size:12px;font-family:Arial, Helvetica, sans-serif;font-weight:normal;}
+ul.simpleTabsNavigation li a.current {background:#fff;color:#222;font-size:12px;border-bottom:1px solid #fff;font-weight:normal;}
+div.simpleTabsContent {border:1px solid #E0E0E0;margin:4px 0 0 0;padding:12px;}
+div.simpleTabsContent.currentTab {display:block;}
+
+/* Admin - Common */
+a#imagethumb {}
+a#galleryPreview {display:block;}
+img.k2AdminImage {border:4px solid #ddd;margin:10px 0;padding:0;display:block;}
+span.k2Notice {cursor:pointer;font-weight:bold;text-decoration:underline;margin-left:8px;}
+
+/* Admin - Dashboard */
+#stats {float:right;width:44%}
+#stats dl.tabs dt.closed {border:1px solid #ccc;}
+#stats dl.tabs dt.open {background:#fff;border:1px solid #ccc;border-bottom:1px solid #fff;}
+
+/* Admin - Items */
+div#admContainer {width:100%;}
+div#admContainer .admLeft {float:left;width:74%;}
+div#admContainer .admRight {float:right;width:24%;padding-top:29px;}
+div#admContainer .cleaner {clear:both;}
+
+#tagsLog.loading {background:url(../images/system/loader.gif) no-repeat;}
+
+.itemPlugins {margin-top:20px;}
+
+.k2ItemFormEditor {clear:both;padding:0;margin:0 0 24px 0;}
+#editor-xtd-buttons {background:#efefef;height:22px;margin:2px 0 0 0;border:1px solid #ccc;}
+table#item_video_content tr td div.panel {width:460px;}
+table#item_video_content tr td div.panel dl.tabs dt.closed {border:1px solid #ccc;}
+table#item_video_content tr td div.panel dl.tabs dt.open {background:#fff;border:1px solid #ccc;border-bottom:1px solid #fff;}
+
+.itemAttachments {margin-bottom:15px;}
+.itemAttachments a {border:1px solid silver;font-size:10px;padding:2px;background-color:#f0f0f0;color:#000}
+.itemAttachments a:hover {text-decoration:none;}
+
+#itemAttachments {margin-top:15px;padding-top:10px;}
+#itemAttachments label {margin-right:10px;font-weight:bold;width:170px;float:left;clear:left;}
+#itemAttachments input {margin-right:10px;margin-bottom:10px;}
+#itemAttachments input.linkTitle {width:200px;}
+#itemAttachments textarea {width:200px;}
+
+td.k2ItemFormDateField {white-space:nowrap;}
+td.k2ItemFormDateField input {}
+td.k2ItemFormDateField img.calendar {vertical-align:bottom;margin-left:2px;}
+
+#extraFieldsContainer table tr td label {padding:0 4px 0 0;margin:0;font-weight:bold;}
+#extraFieldsContainer table tr td input,
+#extraFieldsContainer table tr td select {margin:0 8px 0 0;}
+
+/* Admin - Categories */
+
+/* Admin - Tags */
+
+/* Admin - Comments */
+
+/* Admin - Users */
+
+/* Admin - User groups */
+
+/* Admin - Extra fields */
+#exFieldsTypesDiv {}
+#exFieldsTypesDiv label {margin:4px;font-weight:bold;width:80px;float:left;clear:left;display:block;}
+#exFieldsTypesDiv input,
+#exFieldsTypesDiv textarea,
+#exFieldsTypesDiv select {margin:4px 4px 4px 0;}
+#exFieldsTypesDiv span {color:#555;font-style:italic;}
+#exFieldsTypesDiv span.notice {color:#333;font-style:normal;}
+
+div#groupContainer {display:inline;margin-left:16px;}
+div#groupContainer span {font-weight:bold;}
+
+/* Admin - Extra field groups */
+
+
+
+/* --- Frontend - Edit --- */
+body.contentpane .k2Frontend div.simpleTabsContent {margin:0;}
+body.contentpane .k2Frontend table#item_video_content tr td div.panel {height:90px;}
+
+.k2Frontend {width:auto;padding:0;margin:0;}
+.k2Frontend td.key {width:auto !important;}
+.k2Frontend h3,
+.k2Frontend legend {font-size:13px;font-family:Arial, Helvetica, sans-serif;}
+
+h2#k2FrontendEditTitle {float:left;}
+#k2FrontendEditToolbar {text-align:right;padding:8px;margin-bottom:8px;border-bottom:1px dotted #ccc;}
+
+/* End */

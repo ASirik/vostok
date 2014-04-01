@@ -1,0 +1,898 @@
+DEBUG   |130912 01:21:15|*** Batching successive steps (nesting level 1)
+DEBUG   |130912 01:21:15|====== Starting Step number 1 ======
+DEBUG   |130912 01:21:15|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130912 01:21:15|AECoreDomainInit :: New instance
+DEBUG   |130912 01:21:15|----- Finished operation 1 ------
+INFO    |130912 01:21:15|--------------------------------------------------------------------------------
+INFO    |130912 01:21:15|Akeeba Backup 3.7.6 (2013-04-23)
+INFO    |130912 01:21:15|Got backup?
+INFO    |130912 01:21:15|--------------------------------------------------------------------------------
+INFO    |130912 01:21:15|--- System Information ---
+INFO    |130912 01:21:15|PHP Version        :5.3.6-pl0-gentoo
+INFO    |130912 01:21:15|PHP OS             :Linux
+INFO    |130912 01:21:15|PHP SAPI           :apache2handler
+INFO    |130912 01:21:15|OS Version         :Linux
+INFO    |130912 01:21:15|DB Version         :5.1.47-log
+INFO    |130912 01:21:15|Web Server         :Apache
+INFO    |130912 01:21:15|Joomla! version    :2.5.6
+INFO    |130912 01:21:15|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.62 Safari/537.36
+INFO    |130912 01:21:15|Safe mode          :
+INFO    |130912 01:21:15|Display errors     :
+INFO    |130912 01:21:15|Error reporting    :E_ALL | E_STRICT
+INFO    |130912 01:21:15|Error display      :off
+INFO    |130912 01:21:15|Disabled functions :
+INFO    |130912 01:21:15|open_basedir restr.:
+INFO    |130912 01:21:15|Max. exec. time    :120
+INFO    |130912 01:21:15|Memory limit       :128M
+INFO    |130912 01:21:15|Current mem. usage :8090956
+INFO    |130912 01:21:15|GZIP Compression   : available (good)
+INFO    |130912 01:21:15|JPATH_BASE         :<root>/administrator
+INFO    |130912 01:21:15|JPATH_SITE         :<root>
+INFO    |130912 01:21:15|JPATH_ROOT         :<root>
+INFO    |130912 01:21:15|JPATH_CACHE        :<root>/cache
+INFO    |130912 01:21:15|Computed root      :<root>
+INFO    |130912 01:21:15|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |130912 01:21:15|--------------------------------------------------------------------------------
+INFO    |130912 01:21:15|Akeeba Backup has detected the following potential problems:
+INFO    |130912 01:21:15|- 203 Default output directory in use (low)
+INFO    |130912 01:21:15|- 401 ZIP format selected (low)
+INFO    |130912 01:21:15|You probably do not have to worry about them, but you should be aware of them.
+INFO    |130912 01:21:15|--------------------------------------------------------------------------------
+INFO    |130912 01:21:15|Loaded profile #1
+DEBUG   |130912 01:21:15|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |130912 01:21:15|Expanded template name: site-vostok.sounex.com-20130911-222115
+DEBUG   |130912 01:21:15|Backup type is now set to 'dbonly'
+DEBUG   |130912 01:21:15|----- Finished operation 2 ------
+DEBUG   |130912 01:21:15|----- Finished operation 3 ------
+DEBUG   |130912 01:21:15|Successful Smart algorithm on AECoreDomainInit
+DEBUG   |130912 01:21:15|Kettenrad :: Domain 'init' has finished.
+DEBUG   |130912 01:21:15|====== Finished Step number 1 ======
+DEBUG   |130912 01:21:15|*** Engine steps batching: Break flag detected.
+DEBUG   |130912 01:21:15|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130912 01:21:15|Sleeping for 1985.5718612671 msec, using usleep()
+DEBUG   |130912 01:21:17|Saving Kettenrad instance backend
+DEBUG   |130912 01:21:17|
+DEBUG   |130912 01:21:17| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130912 01:21:17|====== Starting Step number 1 ======
+DEBUG   |130912 01:21:17|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130912 01:21:17|AECoreDomainDb :: New instance
+DEBUG   |130912 01:21:17|AECoreDomainDb :: Preparing instance
+DEBUG   |130912 01:21:17|Fetching filter data from database
+DEBUG   |130912 01:21:17|Loading filters
+DEBUG   |130912 01:21:17|-- Loading filter Directories
+DEBUG   |130912 01:21:17|-- Loading filter Files
+DEBUG   |130912 01:21:17|-- Loading filter Incremental
+DEBUG   |130912 01:21:17|-- Loading filter Skipdirs
+DEBUG   |130912 01:21:17|-- Loading filter Skipfiles
+DEBUG   |130912 01:21:17|-- Loading filter Srpdata
+DEBUG   |130912 01:21:17|-- Loading filter Srpdirs
+DEBUG   |130912 01:21:17|-- Loading filter Srpfiles
+DEBUG   |130912 01:21:17|-- Loading filter Srpskipdata
+DEBUG   |130912 01:21:17|-- Loading filter Srpskipfiles
+DEBUG   |130912 01:21:17|-- Loading filter Tabledata
+DEBUG   |130912 01:21:17|-- Loading filter Tables
+DEBUG   |130912 01:21:17|-- Loading filter PlatformFiles
+DEBUG   |130912 01:21:17|-- Loading filter PlatformFolders
+DEBUG   |130912 01:21:17|-- Loading filter PlatformLibraries
+DEBUG   |130912 01:21:17|-- Loading filter PlatformSitedb
+DEBUG   |130912 01:21:17|-- Loading filter PlatformSiteroot
+DEBUG   |130912 01:21:17|-- Loading filter PlatformSkipdirs
+DEBUG   |130912 01:21:17|-- Loading filter PlatformSkipfiles
+DEBUG   |130912 01:21:17|-- Loading filter PlatformSystemcachefiles
+DEBUG   |130912 01:21:17|-- Loading filter PlatformTabledata
+DEBUG   |130912 01:21:17|Loading optional filters
+DEBUG   |130912 01:21:17|-- Loading optional filter StackPlatformFinder
+DEBUG   |130912 01:21:17|AECoreDomainDb :: Adding only main database
+DEBUG   |130912 01:21:17|----- Finished operation 1 ------
+DEBUG   |130912 01:21:17|AECoreDomainDb :: Iterating next database
+DEBUG   |130912 01:21:17|AEDumpNative :: New instance
+DEBUG   |130912 01:21:17|AEDumpNative :: Processing parameters
+DEBUG   |130912 01:21:17|AEDumpNative :: Instanciating new native database dump engine AEDumpNativeMysql
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: New instance
+DEBUG   |130912 01:21:17|AEAbstractDump :: Processing parameters
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: Finding tables to include in the backup set
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_ak_acl (internal name #__ak_acl)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_ak_profiles (internal name #__ak_profiles)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_ak_stats (internal name #__ak_stats)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_ak_storage (internal name #__ak_storage)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_assets (internal name #__assets)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_associations (internal name #__associations)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_banner_clients (internal name #__banner_clients)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_banner_tracks (internal name #__banner_tracks)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_banners (internal name #__banners)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_categories (internal name #__categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_contact_details (internal name #__contact_details)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_content (internal name #__content)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_content_frontpage (internal name #__content_frontpage)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_content_rating (internal name #__content_rating)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_core_log_searches (internal name #__core_log_searches)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_extensions (internal name #__extensions)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_filters (internal name #__finder_filters)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links (internal name #__finder_links)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms0 (internal name #__finder_links_terms0)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms1 (internal name #__finder_links_terms1)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms2 (internal name #__finder_links_terms2)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms3 (internal name #__finder_links_terms3)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms4 (internal name #__finder_links_terms4)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms5 (internal name #__finder_links_terms5)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms6 (internal name #__finder_links_terms6)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms7 (internal name #__finder_links_terms7)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms8 (internal name #__finder_links_terms8)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_terms9 (internal name #__finder_links_terms9)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_termsa (internal name #__finder_links_termsa)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_termsb (internal name #__finder_links_termsb)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_termsc (internal name #__finder_links_termsc)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_termsd (internal name #__finder_links_termsd)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_termse (internal name #__finder_links_termse)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_links_termsf (internal name #__finder_links_termsf)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_taxonomy (internal name #__finder_taxonomy)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_taxonomy_map (internal name #__finder_taxonomy_map)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_terms (internal name #__finder_terms)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_terms_common (internal name #__finder_terms_common)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_tokens (internal name #__finder_tokens)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_tokens_aggregate (internal name #__finder_tokens_aggregate)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_finder_types (internal name #__finder_types)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_attachments (internal name #__k2_attachments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_categories (internal name #__k2_categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_comments (internal name #__k2_comments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_extra_fields (internal name #__k2_extra_fields)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_extra_fields_groups (internal name #__k2_extra_fields_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_items (internal name #__k2_items)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_rating (internal name #__k2_rating)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_tags (internal name #__k2_tags)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_tags_xref (internal name #__k2_tags_xref)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_user_groups (internal name #__k2_user_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_k2_users (internal name #__k2_users)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_languages (internal name #__languages)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_menu (internal name #__menu)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_menu_types (internal name #__menu_types)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_messages (internal name #__messages)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_messages_cfg (internal name #__messages_cfg)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_modules (internal name #__modules)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_modules_menu (internal name #__modules_menu)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_newsfeeds (internal name #__newsfeeds)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_overrider (internal name #__overrider)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_redirect_links (internal name #__redirect_links)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_schemas (internal name #__schemas)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_session (internal name #__session)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_template_styles (internal name #__template_styles)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_update_categories (internal name #__update_categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_update_sites (internal name #__update_sites)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_update_sites_extensions (internal name #__update_sites_extensions)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_updates (internal name #__updates)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_user_notes (internal name #__user_notes)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_user_profiles (internal name #__user_profiles)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_user_usergroup_map (internal name #__user_usergroup_map)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_usergroups (internal name #__usergroups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_users (internal name #__users)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_viewlevels (internal name #__viewlevels)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding j25_weblinks (internal name #__weblinks)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_ak_acl (internal name jos_ak_acl)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_ak_profiles (internal name jos_ak_profiles)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_ak_stats (internal name jos_ak_stats)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_ak_storage (internal name jos_ak_storage)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_banner (internal name jos_banner)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_bannerclient (internal name jos_bannerclient)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_bannertrack (internal name jos_bannertrack)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_categories (internal name jos_categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_components (internal name jos_components)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_contact_details (internal name jos_contact_details)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_content (internal name jos_content)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_content_frontpage (internal name jos_content_frontpage)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_content_rating (internal name jos_content_rating)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_acl_aro (internal name jos_core_acl_aro)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_acl_aro_groups (internal name jos_core_acl_aro_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_acl_aro_map (internal name jos_core_acl_aro_map)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_acl_aro_sections (internal name jos_core_acl_aro_sections)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_acl_groups_aro_map (internal name jos_core_acl_groups_aro_map)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_log_items (internal name jos_core_log_items)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_core_log_searches (internal name jos_core_log_searches)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_groups (internal name jos_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_jce_extensions (internal name jos_jce_extensions)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_jce_groups (internal name jos_jce_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_jce_plugins (internal name jos_jce_plugins)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery (internal name jos_joomgallery)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_catg (internal name jos_joomgallery_catg)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_comments (internal name jos_joomgallery_comments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_config (internal name jos_joomgallery_config)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_countstop (internal name jos_joomgallery_countstop)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_maintenance (internal name jos_joomgallery_maintenance)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_nameshields (internal name jos_joomgallery_nameshields)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_orphans (internal name jos_joomgallery_orphans)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_users (internal name jos_joomgallery_users)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_joomgallery_votes (internal name jos_joomgallery_votes)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_jxtc_albumplayer (internal name jos_jxtc_albumplayer)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_jxtc_albumplayer_item (internal name jos_jxtc_albumplayer_item)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_attachments (internal name jos_k2_attachments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_categories (internal name jos_k2_categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_comments (internal name jos_k2_comments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_extra_fields (internal name jos_k2_extra_fields)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_extra_fields_groups (internal name jos_k2_extra_fields_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_items (internal name jos_k2_items)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_rating (internal name jos_k2_rating)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_tags (internal name jos_k2_tags)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_tags_xref (internal name jos_k2_tags_xref)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_user_groups (internal name jos_k2_user_groups)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_k2_users (internal name jos_k2_users)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_menu (internal name jos_menu)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_menu_types (internal name jos_menu_types)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_messages (internal name jos_messages)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_messages_cfg (internal name jos_messages_cfg)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_migration_backlinks (internal name jos_migration_backlinks)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_modules (internal name jos_modules)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_modules_menu (internal name jos_modules_menu)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_newsfeeds (internal name jos_newsfeeds)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery (internal name jos_phocagallery)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_categories (internal name jos_phocagallery_categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_comments (internal name jos_phocagallery_comments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_img_comments (internal name jos_phocagallery_img_comments)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_img_votes (internal name jos_phocagallery_img_votes)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_img_votes_statistics (internal name jos_phocagallery_img_votes_statistics)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_user (internal name jos_phocagallery_user)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_votes (internal name jos_phocagallery_votes)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_phocagallery_votes_statistics (internal name jos_phocagallery_votes_statistics)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_plugins (internal name jos_plugins)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_poll_data (internal name jos_poll_data)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_poll_date (internal name jos_poll_date)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_poll_menu (internal name jos_poll_menu)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_polls (internal name jos_polls)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_sections (internal name jos_sections)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_session (internal name jos_session)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_stats_agents (internal name jos_stats_agents)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_templates_menu (internal name jos_templates_menu)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_users (internal name jos_users)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jos_weblinks (internal name jos_weblinks)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jupgrade_categories (internal name jupgrade_categories)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jupgrade_menus (internal name jupgrade_menus)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jupgrade_modules (internal name jupgrade_modules)
+INFO    |130912 01:21:17|AEDumpNativeMysql :: Adding jupgrade_steps (internal name jupgrade_steps)
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: Starting CREATE TABLE and dependency scanning
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: Got database connection
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: Got SHOW TABLES
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: Got table list
+DEBUG   |130912 01:21:17|AEDumpNativeMysql :: Processed dependencies
+DEBUG   |130912 01:21:17|AEAbstractDump :: Getting temporary file
+DEBUG   |130912 01:21:17|AEAbstractDump :: Temporary file is <root>/administrator/components/com_akeeba/backup/a12468cb.sql
+DEBUG   |130912 01:21:17|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/a12468cb.sql
+DEBUG   |130912 01:21:17|AkeebaDomainDBBackup :: SQL file location in archive is <root>/administrator/components/com_akeeba/backup/site-vostok.sounex.com-20130911-222115.sql
+DEBUG   |130912 01:21:17|AkeebaDomainDBBackup :: Deleting leftover files, if any
+DEBUG   |130912 01:21:17|AEAbstractDump :: Initializing algorithm for first run
+DEBUG   |130912 01:21:17|----- Finished operation 2 ------
+DEBUG   |130912 01:21:17|Rows on #__ak_acl : 0
+DEBUG   |130912 01:21:17|Done dumping #__ak_acl
+DEBUG   |130912 01:21:17|----- Finished operation 3 ------
+DEBUG   |130912 01:21:17|Rows on #__ak_profiles : 1
+INFO    |130912 01:21:17|Beginning dump of #__ak_profiles
+DEBUG   |130912 01:21:17|Done dumping #__ak_profiles
+DEBUG   |130912 01:21:17|----- Finished operation 4 ------
+DEBUG   |130912 01:21:17|Rows on #__ak_stats : 10
+INFO    |130912 01:21:17|Beginning dump of #__ak_stats
+DEBUG   |130912 01:21:17|Done dumping #__ak_stats
+DEBUG   |130912 01:21:17|----- Finished operation 5 ------
+DEBUG   |130912 01:21:17|Rows on #__ak_storage : 0
+DEBUG   |130912 01:21:17|Done dumping #__ak_storage
+DEBUG   |130912 01:21:17|----- Finished operation 6 ------
+DEBUG   |130912 01:21:17|Rows on #__assets : 149
+INFO    |130912 01:21:17|Beginning dump of #__assets
+DEBUG   |130912 01:21:17|Done dumping #__assets
+DEBUG   |130912 01:21:17|----- Finished operation 7 ------
+DEBUG   |130912 01:21:17|Rows on #__associations : 0
+DEBUG   |130912 01:21:17|Done dumping #__associations
+DEBUG   |130912 01:21:17|----- Finished operation 8 ------
+DEBUG   |130912 01:21:17|Rows on #__banner_clients : 1
+INFO    |130912 01:21:17|Beginning dump of #__banner_clients
+DEBUG   |130912 01:21:17|Done dumping #__banner_clients
+DEBUG   |130912 01:21:17|----- Finished operation 9 ------
+DEBUG   |130912 01:21:17|Rows on #__banner_tracks : 0
+DEBUG   |130912 01:21:17|Done dumping #__banner_tracks
+DEBUG   |130912 01:21:17|----- Finished operation 10 ------
+DEBUG   |130912 01:21:17|Rows on #__banners : 8
+INFO    |130912 01:21:17|Beginning dump of #__banners
+DEBUG   |130912 01:21:17|Done dumping #__banners
+DEBUG   |130912 01:21:17|----- Finished operation 11 ------
+DEBUG   |130912 01:21:18|Rows on #__categories : 35
+INFO    |130912 01:21:18|Beginning dump of #__categories
+DEBUG   |130912 01:21:18|Done dumping #__categories
+DEBUG   |130912 01:21:18|----- Finished operation 12 ------
+DEBUG   |130912 01:21:18|Rows on #__contact_details : 1
+INFO    |130912 01:21:18|Beginning dump of #__contact_details
+DEBUG   |130912 01:21:18|Done dumping #__contact_details
+DEBUG   |130912 01:21:18|----- Finished operation 13 ------
+DEBUG   |130912 01:21:18|Rows on #__content : 78
+INFO    |130912 01:21:18|Beginning dump of #__content
+DEBUG   |130912 01:21:18|Writing 182612 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 231529 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 231579 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 531745 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 482264 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping #__content
+DEBUG   |130912 01:21:18|----- Finished operation 14 ------
+DEBUG   |130912 01:21:18|Rows on #__content_frontpage : 8
+INFO    |130912 01:21:18|Beginning dump of #__content_frontpage
+DEBUG   |130912 01:21:18|Done dumping #__content_frontpage
+DEBUG   |130912 01:21:18|----- Finished operation 15 ------
+DEBUG   |130912 01:21:18|Rows on #__content_rating : 0
+DEBUG   |130912 01:21:18|Done dumping #__content_rating
+DEBUG   |130912 01:21:18|----- Finished operation 16 ------
+DEBUG   |130912 01:21:18|Rows on #__core_log_searches : 0
+DEBUG   |130912 01:21:18|Done dumping #__core_log_searches
+DEBUG   |130912 01:21:18|----- Finished operation 17 ------
+DEBUG   |130912 01:21:18|Rows on #__extensions : 144
+INFO    |130912 01:21:18|Beginning dump of #__extensions
+DEBUG   |130912 01:21:18|Done dumping #__extensions
+DEBUG   |130912 01:21:18|----- Finished operation 18 ------
+DEBUG   |130912 01:21:18|Rows on #__finder_filters : 0
+DEBUG   |130912 01:21:18|Done dumping #__finder_filters
+DEBUG   |130912 01:21:18|----- Finished operation 19 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links
+DEBUG   |130912 01:21:18|Done dumping #__finder_links
+DEBUG   |130912 01:21:18|----- Finished operation 20 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms0
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms0
+DEBUG   |130912 01:21:18|----- Finished operation 21 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms1
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms1
+DEBUG   |130912 01:21:18|----- Finished operation 22 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms2
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms2
+DEBUG   |130912 01:21:18|----- Finished operation 23 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms3
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms3
+DEBUG   |130912 01:21:18|----- Finished operation 24 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms4
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms4
+DEBUG   |130912 01:21:18|----- Finished operation 25 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms5
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms5
+DEBUG   |130912 01:21:18|----- Finished operation 26 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms6
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms6
+DEBUG   |130912 01:21:18|----- Finished operation 27 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms7
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms7
+DEBUG   |130912 01:21:18|----- Finished operation 28 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms8
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms8
+DEBUG   |130912 01:21:18|----- Finished operation 29 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_terms9
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_terms9
+DEBUG   |130912 01:21:18|----- Finished operation 30 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_termsa
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_termsa
+DEBUG   |130912 01:21:18|----- Finished operation 31 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_termsb
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_termsb
+DEBUG   |130912 01:21:18|----- Finished operation 32 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_termsc
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_termsc
+DEBUG   |130912 01:21:18|----- Finished operation 33 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_termsd
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_termsd
+DEBUG   |130912 01:21:18|----- Finished operation 34 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_termse
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_termse
+DEBUG   |130912 01:21:18|----- Finished operation 35 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_links_termsf
+DEBUG   |130912 01:21:18|Done dumping #__finder_links_termsf
+DEBUG   |130912 01:21:18|----- Finished operation 36 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_taxonomy
+DEBUG   |130912 01:21:18|Done dumping #__finder_taxonomy
+DEBUG   |130912 01:21:18|----- Finished operation 37 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_taxonomy_map
+DEBUG   |130912 01:21:18|Done dumping #__finder_taxonomy_map
+DEBUG   |130912 01:21:18|----- Finished operation 38 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_terms
+DEBUG   |130912 01:21:18|Done dumping #__finder_terms
+DEBUG   |130912 01:21:18|----- Finished operation 39 ------
+DEBUG   |130912 01:21:18|Rows on #__finder_terms_common : 115
+INFO    |130912 01:21:18|Beginning dump of #__finder_terms_common
+DEBUG   |130912 01:21:18|Done dumping #__finder_terms_common
+DEBUG   |130912 01:21:18|----- Finished operation 40 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_tokens
+DEBUG   |130912 01:21:18|Done dumping #__finder_tokens
+DEBUG   |130912 01:21:18|----- Finished operation 41 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__finder_tokens_aggregate
+DEBUG   |130912 01:21:18|Done dumping #__finder_tokens_aggregate
+DEBUG   |130912 01:21:18|----- Finished operation 42 ------
+DEBUG   |130912 01:21:18|Rows on #__finder_types : 0
+DEBUG   |130912 01:21:18|Done dumping #__finder_types
+DEBUG   |130912 01:21:18|----- Finished operation 43 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_attachments : 0
+DEBUG   |130912 01:21:18|Done dumping #__k2_attachments
+DEBUG   |130912 01:21:18|----- Finished operation 44 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_categories : 8
+INFO    |130912 01:21:18|Beginning dump of #__k2_categories
+DEBUG   |130912 01:21:18|Done dumping #__k2_categories
+DEBUG   |130912 01:21:18|----- Finished operation 45 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_comments : 0
+DEBUG   |130912 01:21:18|Done dumping #__k2_comments
+DEBUG   |130912 01:21:18|----- Finished operation 46 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_extra_fields : 0
+DEBUG   |130912 01:21:18|Done dumping #__k2_extra_fields
+DEBUG   |130912 01:21:18|----- Finished operation 47 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_extra_fields_groups : 0
+DEBUG   |130912 01:21:18|Done dumping #__k2_extra_fields_groups
+DEBUG   |130912 01:21:18|----- Finished operation 48 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_items : 20
+INFO    |130912 01:21:18|Beginning dump of #__k2_items
+DEBUG   |130912 01:21:18|Writing 196933 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping #__k2_items
+DEBUG   |130912 01:21:18|----- Finished operation 49 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_rating : 1
+INFO    |130912 01:21:18|Beginning dump of #__k2_rating
+DEBUG   |130912 01:21:18|Done dumping #__k2_rating
+DEBUG   |130912 01:21:18|----- Finished operation 50 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_tags : 0
+DEBUG   |130912 01:21:18|Done dumping #__k2_tags
+DEBUG   |130912 01:21:18|----- Finished operation 51 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_tags_xref : 0
+DEBUG   |130912 01:21:18|Done dumping #__k2_tags_xref
+DEBUG   |130912 01:21:18|----- Finished operation 52 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_user_groups : 2
+INFO    |130912 01:21:18|Beginning dump of #__k2_user_groups
+DEBUG   |130912 01:21:18|Done dumping #__k2_user_groups
+DEBUG   |130912 01:21:18|----- Finished operation 53 ------
+DEBUG   |130912 01:21:18|Rows on #__k2_users : 13
+INFO    |130912 01:21:18|Beginning dump of #__k2_users
+DEBUG   |130912 01:21:18|Done dumping #__k2_users
+DEBUG   |130912 01:21:18|----- Finished operation 54 ------
+DEBUG   |130912 01:21:18|Rows on #__languages : 2
+INFO    |130912 01:21:18|Beginning dump of #__languages
+DEBUG   |130912 01:21:18|Done dumping #__languages
+DEBUG   |130912 01:21:18|----- Finished operation 55 ------
+DEBUG   |130912 01:21:18|Rows on #__menu : 87
+INFO    |130912 01:21:18|Beginning dump of #__menu
+DEBUG   |130912 01:21:18|Done dumping #__menu
+DEBUG   |130912 01:21:18|----- Finished operation 56 ------
+DEBUG   |130912 01:21:18|Rows on #__menu_types : 4
+INFO    |130912 01:21:18|Beginning dump of #__menu_types
+DEBUG   |130912 01:21:18|Done dumping #__menu_types
+DEBUG   |130912 01:21:18|----- Finished operation 57 ------
+DEBUG   |130912 01:21:18|Rows on #__messages : 0
+DEBUG   |130912 01:21:18|Done dumping #__messages
+DEBUG   |130912 01:21:18|----- Finished operation 58 ------
+DEBUG   |130912 01:21:18|Rows on #__messages_cfg : 0
+DEBUG   |130912 01:21:18|Done dumping #__messages_cfg
+DEBUG   |130912 01:21:18|----- Finished operation 59 ------
+DEBUG   |130912 01:21:18|Rows on #__modules : 53
+INFO    |130912 01:21:18|Beginning dump of #__modules
+DEBUG   |130912 01:21:18|Done dumping #__modules
+DEBUG   |130912 01:21:18|----- Finished operation 60 ------
+DEBUG   |130912 01:21:18|Rows on #__modules_menu : 81
+INFO    |130912 01:21:18|Beginning dump of #__modules_menu
+DEBUG   |130912 01:21:18|Done dumping #__modules_menu
+DEBUG   |130912 01:21:18|----- Finished operation 61 ------
+DEBUG   |130912 01:21:18|Rows on #__newsfeeds : 14
+INFO    |130912 01:21:18|Beginning dump of #__newsfeeds
+DEBUG   |130912 01:21:18|Writing 133115 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping #__newsfeeds
+DEBUG   |130912 01:21:18|----- Finished operation 62 ------
+DEBUG   |130912 01:21:18|Rows on #__overrider : 0
+DEBUG   |130912 01:21:18|Done dumping #__overrider
+DEBUG   |130912 01:21:18|----- Finished operation 63 ------
+DEBUG   |130912 01:21:18|Rows on #__redirect_links : 330
+INFO    |130912 01:21:18|Beginning dump of #__redirect_links
+DEBUG   |130912 01:21:18|Done dumping #__redirect_links
+DEBUG   |130912 01:21:18|----- Finished operation 64 ------
+DEBUG   |130912 01:21:18|Rows on #__schemas : 2
+INFO    |130912 01:21:18|Beginning dump of #__schemas
+DEBUG   |130912 01:21:18|Done dumping #__schemas
+DEBUG   |130912 01:21:18|----- Finished operation 65 ------
+INFO    |130912 01:21:18|Skipping dumping data of #__session
+DEBUG   |130912 01:21:18|Done dumping #__session
+DEBUG   |130912 01:21:18|----- Finished operation 66 ------
+DEBUG   |130912 01:21:18|Rows on #__template_styles : 13
+INFO    |130912 01:21:18|Beginning dump of #__template_styles
+DEBUG   |130912 01:21:18|Done dumping #__template_styles
+DEBUG   |130912 01:21:18|----- Finished operation 67 ------
+DEBUG   |130912 01:21:18|Rows on #__update_categories : 0
+DEBUG   |130912 01:21:18|Done dumping #__update_categories
+DEBUG   |130912 01:21:18|----- Finished operation 68 ------
+DEBUG   |130912 01:21:18|Rows on #__update_sites : 6
+INFO    |130912 01:21:18|Beginning dump of #__update_sites
+DEBUG   |130912 01:21:18|Done dumping #__update_sites
+DEBUG   |130912 01:21:18|----- Finished operation 69 ------
+DEBUG   |130912 01:21:18|Rows on #__update_sites_extensions : 6
+INFO    |130912 01:21:18|Beginning dump of #__update_sites_extensions
+DEBUG   |130912 01:21:18|Done dumping #__update_sites_extensions
+DEBUG   |130912 01:21:18|----- Finished operation 70 ------
+DEBUG   |130912 01:21:18|Rows on #__updates : 545
+INFO    |130912 01:21:18|Beginning dump of #__updates
+DEBUG   |130912 01:21:18|Writing 163736 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping #__updates
+DEBUG   |130912 01:21:18|----- Finished operation 71 ------
+DEBUG   |130912 01:21:18|Rows on #__user_notes : 0
+DEBUG   |130912 01:21:18|Done dumping #__user_notes
+DEBUG   |130912 01:21:18|----- Finished operation 72 ------
+DEBUG   |130912 01:21:18|Rows on #__user_profiles : 0
+DEBUG   |130912 01:21:18|Done dumping #__user_profiles
+DEBUG   |130912 01:21:18|----- Finished operation 73 ------
+DEBUG   |130912 01:21:18|Rows on #__user_usergroup_map : 20
+INFO    |130912 01:21:18|Beginning dump of #__user_usergroup_map
+DEBUG   |130912 01:21:18|Done dumping #__user_usergroup_map
+DEBUG   |130912 01:21:18|----- Finished operation 74 ------
+DEBUG   |130912 01:21:18|Rows on #__usergroups : 8
+INFO    |130912 01:21:18|Beginning dump of #__usergroups
+DEBUG   |130912 01:21:18|Done dumping #__usergroups
+DEBUG   |130912 01:21:18|----- Finished operation 75 ------
+DEBUG   |130912 01:21:18|Rows on #__users : 20
+INFO    |130912 01:21:18|Beginning dump of #__users
+DEBUG   |130912 01:21:18|Done dumping #__users
+DEBUG   |130912 01:21:18|----- Finished operation 76 ------
+DEBUG   |130912 01:21:18|Rows on #__viewlevels : 3
+INFO    |130912 01:21:18|Beginning dump of #__viewlevels
+DEBUG   |130912 01:21:18|Done dumping #__viewlevels
+DEBUG   |130912 01:21:18|----- Finished operation 77 ------
+DEBUG   |130912 01:21:18|Rows on #__weblinks : 6
+INFO    |130912 01:21:18|Beginning dump of #__weblinks
+DEBUG   |130912 01:21:18|Done dumping #__weblinks
+DEBUG   |130912 01:21:18|----- Finished operation 78 ------
+DEBUG   |130912 01:21:18|Rows on jos_ak_acl : 0
+DEBUG   |130912 01:21:18|Done dumping jos_ak_acl
+DEBUG   |130912 01:21:18|----- Finished operation 79 ------
+DEBUG   |130912 01:21:18|Rows on jos_ak_profiles : 1
+INFO    |130912 01:21:18|Beginning dump of jos_ak_profiles
+DEBUG   |130912 01:21:18|Done dumping jos_ak_profiles
+DEBUG   |130912 01:21:18|----- Finished operation 80 ------
+DEBUG   |130912 01:21:18|Rows on jos_ak_stats : 4
+INFO    |130912 01:21:18|Beginning dump of jos_ak_stats
+DEBUG   |130912 01:21:18|Done dumping jos_ak_stats
+DEBUG   |130912 01:21:18|----- Finished operation 81 ------
+DEBUG   |130912 01:21:18|Rows on jos_ak_storage : 0
+DEBUG   |130912 01:21:18|Done dumping jos_ak_storage
+DEBUG   |130912 01:21:18|----- Finished operation 82 ------
+DEBUG   |130912 01:21:18|Rows on jos_banner : 8
+INFO    |130912 01:21:18|Beginning dump of jos_banner
+DEBUG   |130912 01:21:18|Done dumping jos_banner
+DEBUG   |130912 01:21:18|----- Finished operation 83 ------
+DEBUG   |130912 01:21:18|Rows on jos_bannerclient : 1
+INFO    |130912 01:21:18|Beginning dump of jos_bannerclient
+DEBUG   |130912 01:21:18|Done dumping jos_bannerclient
+DEBUG   |130912 01:21:18|----- Finished operation 84 ------
+DEBUG   |130912 01:21:18|Rows on jos_bannertrack : 0
+DEBUG   |130912 01:21:18|Done dumping jos_bannertrack
+DEBUG   |130912 01:21:18|----- Finished operation 85 ------
+DEBUG   |130912 01:21:18|Rows on jos_categories : 31
+INFO    |130912 01:21:18|Beginning dump of jos_categories
+DEBUG   |130912 01:21:18|Done dumping jos_categories
+DEBUG   |130912 01:21:18|----- Finished operation 86 ------
+DEBUG   |130912 01:21:18|Rows on jos_components : 62
+INFO    |130912 01:21:18|Beginning dump of jos_components
+DEBUG   |130912 01:21:18|Done dumping jos_components
+DEBUG   |130912 01:21:18|----- Finished operation 87 ------
+DEBUG   |130912 01:21:18|Rows on jos_contact_details : 1
+INFO    |130912 01:21:18|Beginning dump of jos_contact_details
+DEBUG   |130912 01:21:18|Done dumping jos_contact_details
+DEBUG   |130912 01:21:18|----- Finished operation 88 ------
+DEBUG   |130912 01:21:18|Rows on jos_content : 73
+INFO    |130912 01:21:18|Beginning dump of jos_content
+DEBUG   |130912 01:21:18|Writing 176611 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 240476 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 258307 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping jos_content
+DEBUG   |130912 01:21:18|----- Finished operation 89 ------
+DEBUG   |130912 01:21:18|Rows on jos_content_frontpage : 8
+INFO    |130912 01:21:18|Beginning dump of jos_content_frontpage
+DEBUG   |130912 01:21:18|Done dumping jos_content_frontpage
+DEBUG   |130912 01:21:18|----- Finished operation 90 ------
+DEBUG   |130912 01:21:18|Rows on jos_content_rating : 0
+DEBUG   |130912 01:21:18|Done dumping jos_content_rating
+DEBUG   |130912 01:21:18|----- Finished operation 91 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_acl_aro : 20
+INFO    |130912 01:21:18|Beginning dump of jos_core_acl_aro
+DEBUG   |130912 01:21:18|Done dumping jos_core_acl_aro
+DEBUG   |130912 01:21:18|----- Finished operation 92 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_acl_aro_groups : 11
+INFO    |130912 01:21:18|Beginning dump of jos_core_acl_aro_groups
+DEBUG   |130912 01:21:18|Done dumping jos_core_acl_aro_groups
+DEBUG   |130912 01:21:18|----- Finished operation 93 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_acl_aro_map : 0
+DEBUG   |130912 01:21:18|Done dumping jos_core_acl_aro_map
+DEBUG   |130912 01:21:18|----- Finished operation 94 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_acl_aro_sections : 1
+INFO    |130912 01:21:18|Beginning dump of jos_core_acl_aro_sections
+DEBUG   |130912 01:21:18|Done dumping jos_core_acl_aro_sections
+DEBUG   |130912 01:21:18|----- Finished operation 95 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_acl_groups_aro_map : 20
+INFO    |130912 01:21:18|Beginning dump of jos_core_acl_groups_aro_map
+DEBUG   |130912 01:21:18|Done dumping jos_core_acl_groups_aro_map
+DEBUG   |130912 01:21:18|----- Finished operation 96 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_log_items : 0
+DEBUG   |130912 01:21:18|Done dumping jos_core_log_items
+DEBUG   |130912 01:21:18|----- Finished operation 97 ------
+DEBUG   |130912 01:21:18|Rows on jos_core_log_searches : 0
+DEBUG   |130912 01:21:18|Done dumping jos_core_log_searches
+DEBUG   |130912 01:21:18|----- Finished operation 98 ------
+DEBUG   |130912 01:21:18|Rows on jos_groups : 3
+INFO    |130912 01:21:18|Beginning dump of jos_groups
+DEBUG   |130912 01:21:18|Done dumping jos_groups
+DEBUG   |130912 01:21:18|----- Finished operation 99 ------
+DEBUG   |130912 01:21:18|Rows on jos_jce_extensions : 1
+INFO    |130912 01:21:18|Beginning dump of jos_jce_extensions
+DEBUG   |130912 01:21:18|Done dumping jos_jce_extensions
+DEBUG   |130912 01:21:18|----- Finished operation 100 ------
+DEBUG   |130912 01:21:18|Rows on jos_jce_groups : 2
+INFO    |130912 01:21:18|Beginning dump of jos_jce_groups
+DEBUG   |130912 01:21:18|Done dumping jos_jce_groups
+DEBUG   |130912 01:21:18|----- Finished operation 101 ------
+DEBUG   |130912 01:21:18|Rows on jos_jce_plugins : 58
+INFO    |130912 01:21:18|Beginning dump of jos_jce_plugins
+DEBUG   |130912 01:21:18|Done dumping jos_jce_plugins
+DEBUG   |130912 01:21:18|----- Finished operation 102 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery : 311
+INFO    |130912 01:21:18|Beginning dump of jos_joomgallery
+DEBUG   |130912 01:21:18|Writing 145121 bytes to the dump file
+DEBUG   |130912 01:21:18|Writing 139803 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery
+DEBUG   |130912 01:21:18|----- Finished operation 103 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_catg : 13
+INFO    |130912 01:21:18|Beginning dump of jos_joomgallery_catg
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_catg
+DEBUG   |130912 01:21:18|----- Finished operation 104 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_comments : 104
+INFO    |130912 01:21:18|Beginning dump of jos_joomgallery_comments
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_comments
+DEBUG   |130912 01:21:18|----- Finished operation 105 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_config : 1
+INFO    |130912 01:21:18|Beginning dump of jos_joomgallery_config
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_config
+DEBUG   |130912 01:21:18|----- Finished operation 106 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_countstop : 1
+INFO    |130912 01:21:18|Beginning dump of jos_joomgallery_countstop
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_countstop
+DEBUG   |130912 01:21:18|----- Finished operation 107 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_maintenance : 0
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_maintenance
+DEBUG   |130912 01:21:18|----- Finished operation 108 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_nameshields : 0
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_nameshields
+DEBUG   |130912 01:21:18|----- Finished operation 109 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_orphans : 0
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_orphans
+DEBUG   |130912 01:21:18|----- Finished operation 110 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_users : 0
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_users
+DEBUG   |130912 01:21:18|----- Finished operation 111 ------
+DEBUG   |130912 01:21:18|Rows on jos_joomgallery_votes : 12
+INFO    |130912 01:21:18|Beginning dump of jos_joomgallery_votes
+DEBUG   |130912 01:21:18|Done dumping jos_joomgallery_votes
+DEBUG   |130912 01:21:18|----- Finished operation 112 ------
+DEBUG   |130912 01:21:18|Rows on jos_jxtc_albumplayer : 1
+INFO    |130912 01:21:18|Beginning dump of jos_jxtc_albumplayer
+DEBUG   |130912 01:21:18|Done dumping jos_jxtc_albumplayer
+DEBUG   |130912 01:21:18|----- Finished operation 113 ------
+DEBUG   |130912 01:21:18|Rows on jos_jxtc_albumplayer_item : 1
+INFO    |130912 01:21:18|Beginning dump of jos_jxtc_albumplayer_item
+DEBUG   |130912 01:21:18|Done dumping jos_jxtc_albumplayer_item
+DEBUG   |130912 01:21:18|----- Finished operation 114 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_attachments : 0
+DEBUG   |130912 01:21:18|Done dumping jos_k2_attachments
+DEBUG   |130912 01:21:18|----- Finished operation 115 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_categories : 8
+INFO    |130912 01:21:18|Beginning dump of jos_k2_categories
+DEBUG   |130912 01:21:18|Done dumping jos_k2_categories
+DEBUG   |130912 01:21:18|----- Finished operation 116 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_comments : 0
+DEBUG   |130912 01:21:18|Done dumping jos_k2_comments
+DEBUG   |130912 01:21:18|----- Finished operation 117 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_extra_fields : 0
+DEBUG   |130912 01:21:18|Done dumping jos_k2_extra_fields
+DEBUG   |130912 01:21:18|----- Finished operation 118 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_extra_fields_groups : 0
+DEBUG   |130912 01:21:18|Done dumping jos_k2_extra_fields_groups
+DEBUG   |130912 01:21:18|----- Finished operation 119 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_items : 20
+INFO    |130912 01:21:18|Beginning dump of jos_k2_items
+DEBUG   |130912 01:21:18|Writing 139609 bytes to the dump file
+DEBUG   |130912 01:21:18|Done dumping jos_k2_items
+DEBUG   |130912 01:21:18|----- Finished operation 120 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_rating : 1
+INFO    |130912 01:21:18|Beginning dump of jos_k2_rating
+DEBUG   |130912 01:21:18|Done dumping jos_k2_rating
+DEBUG   |130912 01:21:18|----- Finished operation 121 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_tags : 0
+DEBUG   |130912 01:21:18|Done dumping jos_k2_tags
+DEBUG   |130912 01:21:18|----- Finished operation 122 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_tags_xref : 0
+DEBUG   |130912 01:21:18|Done dumping jos_k2_tags_xref
+DEBUG   |130912 01:21:18|----- Finished operation 123 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_user_groups : 2
+INFO    |130912 01:21:18|Beginning dump of jos_k2_user_groups
+DEBUG   |130912 01:21:18|Done dumping jos_k2_user_groups
+DEBUG   |130912 01:21:18|----- Finished operation 124 ------
+DEBUG   |130912 01:21:18|Rows on jos_k2_users : 13
+INFO    |130912 01:21:18|Beginning dump of jos_k2_users
+DEBUG   |130912 01:21:18|Done dumping jos_k2_users
+DEBUG   |130912 01:21:18|----- Finished operation 125 ------
+DEBUG   |130912 01:21:18|Rows on jos_menu : 55
+INFO    |130912 01:21:18|Beginning dump of jos_menu
+DEBUG   |130912 01:21:18|Done dumping jos_menu
+DEBUG   |130912 01:21:18|----- Finished operation 126 ------
+DEBUG   |130912 01:21:18|Rows on jos_menu_types : 4
+INFO    |130912 01:21:18|Beginning dump of jos_menu_types
+DEBUG   |130912 01:21:18|Done dumping jos_menu_types
+DEBUG   |130912 01:21:18|----- Finished operation 127 ------
+DEBUG   |130912 01:21:18|Rows on jos_messages : 0
+DEBUG   |130912 01:21:18|Done dumping jos_messages
+DEBUG   |130912 01:21:18|----- Finished operation 128 ------
+DEBUG   |130912 01:21:18|Rows on jos_messages_cfg : 0
+DEBUG   |130912 01:21:18|Done dumping jos_messages_cfg
+DEBUG   |130912 01:21:18|----- Finished operation 129 ------
+DEBUG   |130912 01:21:18|Rows on jos_migration_backlinks : 0
+DEBUG   |130912 01:21:18|Done dumping jos_migration_backlinks
+DEBUG   |130912 01:21:18|----- Finished operation 130 ------
+DEBUG   |130912 01:21:18|Rows on jos_modules : 60
+INFO    |130912 01:21:18|Beginning dump of jos_modules
+DEBUG   |130912 01:21:18|Done dumping jos_modules
+DEBUG   |130912 01:21:18|----- Finished operation 131 ------
+DEBUG   |130912 01:21:18|Rows on jos_modules_menu : 84
+INFO    |130912 01:21:18|Beginning dump of jos_modules_menu
+DEBUG   |130912 01:21:18|Done dumping jos_modules_menu
+DEBUG   |130912 01:21:18|----- Finished operation 132 ------
+DEBUG   |130912 01:21:18|Rows on jos_newsfeeds : 14
+INFO    |130912 01:21:18|Beginning dump of jos_newsfeeds
+DEBUG   |130912 01:21:18|Done dumping jos_newsfeeds
+DEBUG   |130912 01:21:18|----- Finished operation 133 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery
+DEBUG   |130912 01:21:18|----- Finished operation 134 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_categories : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_categories
+DEBUG   |130912 01:21:18|----- Finished operation 135 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_comments : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_comments
+DEBUG   |130912 01:21:18|----- Finished operation 136 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_img_comments : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_img_comments
+DEBUG   |130912 01:21:18|----- Finished operation 137 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_img_votes : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_img_votes
+DEBUG   |130912 01:21:18|----- Finished operation 138 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_img_votes_statistics : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_img_votes_statistics
+DEBUG   |130912 01:21:18|----- Finished operation 139 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_user : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_user
+DEBUG   |130912 01:21:18|----- Finished operation 140 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_votes : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_votes
+DEBUG   |130912 01:21:18|----- Finished operation 141 ------
+DEBUG   |130912 01:21:18|Rows on jos_phocagallery_votes_statistics : 0
+DEBUG   |130912 01:21:18|Done dumping jos_phocagallery_votes_statistics
+DEBUG   |130912 01:21:18|----- Finished operation 142 ------
+DEBUG   |130912 01:21:18|Rows on jos_plugins : 44
+INFO    |130912 01:21:18|Beginning dump of jos_plugins
+DEBUG   |130912 01:21:18|Done dumping jos_plugins
+DEBUG   |130912 01:21:18|----- Finished operation 143 ------
+DEBUG   |130912 01:21:18|Rows on jos_poll_data : 12
+INFO    |130912 01:21:18|Beginning dump of jos_poll_data
+DEBUG   |130912 01:21:18|Done dumping jos_poll_data
+DEBUG   |130912 01:21:18|----- Finished operation 144 ------
+DEBUG   |130912 01:21:18|Rows on jos_poll_date : 12
+INFO    |130912 01:21:18|Beginning dump of jos_poll_date
+DEBUG   |130912 01:21:18|Done dumping jos_poll_date
+DEBUG   |130912 01:21:18|----- Finished operation 145 ------
+DEBUG   |130912 01:21:18|Rows on jos_poll_menu : 0
+DEBUG   |130912 01:21:18|Done dumping jos_poll_menu
+DEBUG   |130912 01:21:18|----- Finished operation 146 ------
+DEBUG   |130912 01:21:18|Rows on jos_polls : 1
+INFO    |130912 01:21:18|Beginning dump of jos_polls
+DEBUG   |130912 01:21:18|Done dumping jos_polls
+DEBUG   |130912 01:21:18|----- Finished operation 147 ------
+DEBUG   |130912 01:21:18|Rows on jos_sections : 9
+INFO    |130912 01:21:18|Beginning dump of jos_sections
+DEBUG   |130912 01:21:18|Done dumping jos_sections
+DEBUG   |130912 01:21:18|----- Finished operation 148 ------
+DEBUG   |130912 01:21:18|Rows on jos_session : 3
+INFO    |130912 01:21:18|Beginning dump of jos_session
+DEBUG   |130912 01:21:18|Done dumping jos_session
+DEBUG   |130912 01:21:18|----- Finished operation 149 ------
+DEBUG   |130912 01:21:18|Rows on jos_stats_agents : 0
+DEBUG   |130912 01:21:18|Done dumping jos_stats_agents
+DEBUG   |130912 01:21:18|----- Finished operation 150 ------
+DEBUG   |130912 01:21:18|Rows on jos_templates_menu : 2
+INFO    |130912 01:21:18|Beginning dump of jos_templates_menu
+DEBUG   |130912 01:21:18|Done dumping jos_templates_menu
+DEBUG   |130912 01:21:18|----- Finished operation 151 ------
+DEBUG   |130912 01:21:18|Rows on jos_users : 20
+INFO    |130912 01:21:18|Beginning dump of jos_users
+DEBUG   |130912 01:21:18|Done dumping jos_users
+DEBUG   |130912 01:21:18|----- Finished operation 152 ------
+DEBUG   |130912 01:21:18|Rows on jos_weblinks : 6
+INFO    |130912 01:21:18|Beginning dump of jos_weblinks
+DEBUG   |130912 01:21:18|Done dumping jos_weblinks
+DEBUG   |130912 01:21:18|----- Finished operation 153 ------
+DEBUG   |130912 01:21:18|Rows on jupgrade_categories : 38
+INFO    |130912 01:21:18|Beginning dump of jupgrade_categories
+DEBUG   |130912 01:21:18|Done dumping jupgrade_categories
+DEBUG   |130912 01:21:18|----- Finished operation 154 ------
+DEBUG   |130912 01:21:18|Rows on jupgrade_menus : 56
+INFO    |130912 01:21:18|Beginning dump of jupgrade_menus
+DEBUG   |130912 01:21:18|Done dumping jupgrade_menus
+DEBUG   |130912 01:21:18|----- Finished operation 155 ------
+DEBUG   |130912 01:21:18|Rows on jupgrade_modules : 30
+INFO    |130912 01:21:18|Beginning dump of jupgrade_modules
+DEBUG   |130912 01:21:18|Done dumping jupgrade_modules
+DEBUG   |130912 01:21:18|----- Finished operation 156 ------
+DEBUG   |130912 01:21:18|Rows on jupgrade_steps : 12
+INFO    |130912 01:21:18|Beginning dump of jupgrade_steps
+DEBUG   |130912 01:21:18|Done dumping jupgrade_steps
+INFO    |130912 01:21:18|End of database detected; flushing the dump buffers...
+DEBUG   |130912 01:21:18|Writing 123466 bytes to the dump file
+INFO    |130912 01:21:18|Database has been successfully dumped to SQL file(s)
+DEBUG   |130912 01:21:18|----- Finished operation 157 ------
+DEBUG   |130912 01:21:18|Adding any extra SQL statements imposed by the filters
+DEBUG   |130912 01:21:18|Closing SQL dump file.
+DEBUG   |130912 01:21:18|Moving the SQL dump to its final location
+DEBUG   |130912 01:21:18|Removing temporary file of final SQL dump
+DEBUG   |130912 01:21:18|-- Removing temporary file a12468cb.sql
+DEBUG   |130912 01:21:18|AECoreDomainDb :: No more databases left to iterate
+DEBUG   |130912 01:21:18|----- Finished operation 158 ------
+DEBUG   |130912 01:21:18|AECoreDomainDb :: Skipping databases.ini
+DEBUG   |130912 01:21:18|----- Finished operation 159 ------
+DEBUG   |130912 01:21:18|Successful Smart algorithm on AECoreDomainDb
+DEBUG   |130912 01:21:18|Kettenrad :: Domain 'PackDB' has finished.
+DEBUG   |130912 01:21:18|====== Finished Step number 1 ======
+DEBUG   |130912 01:21:18|*** Engine steps batching: Break flag detected.
+DEBUG   |130912 01:21:18|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130912 01:21:18|Sleeping for 945.27888298035 msec, using usleep()
+DEBUG   |130912 01:21:19|Saving Kettenrad instance backend
+WARNING |130912 01:21:19|PHP WARNING on line 124 in file <root>/administrator/components/com_akeeba/akeeba/drivers/mysql.php:
+WARNING |130912 01:21:19|mysql_close(): 32 is not a valid MySQL-Link resource
+DEBUG   |130912 01:21:19|Closing SQL dump file.
+DEBUG   |130912 01:21:19| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130912 01:21:19|====== Starting Step number 2 ======
+DEBUG   |130912 01:21:19|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130912 01:21:19|Finalization action queue: remove_temp_files, update_statistics, update_filesizes, run_post_processing, apply_quotas, apply_remote_quotas, mail_administrators
+DEBUG   |130912 01:21:19|----- Finished operation 1 ------
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method remove_temp_files
+DEBUG   |130912 01:21:19|Removing temporary files
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method update_statistics
+DEBUG   |130912 01:21:19|Updating statistics
+DEBUG   |130912 01:21:19|Removing any old records with site-vostok.sounex.com-20130911-222115.sql filename
+DEBUG   |130912 01:21:19|1 records found
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method update_filesizes
+DEBUG   |130912 01:21:19|Updating statistics with file sizes
+DEBUG   |130912 01:21:19|Total size of backup archive (in bytes): 3376906
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method run_post_processing
+DEBUG   |130912 01:21:19|Loading post-processing engine object (none)
+INFO    |130912 01:21:19|Initializing post-processing engine
+DEBUG   |130912 01:21:19|1 files to process found
+INFO    |130912 01:21:19|Beginning post processing file <root>/administrator/components/com_akeeba/backup/site-vostok.sounex.com-20130911-222115.sql
+INFO    |130912 01:21:19|Finished post-processing file <root>/administrator/components/com_akeeba/backup/site-vostok.sounex.com-20130911-222115.sql
+DEBUG   |130912 01:21:19|Not removing processed file <root>/administrator/components/com_akeeba/backup/site-vostok.sounex.com-20130911-222115.sql
+INFO    |130912 01:21:19|Post-processing has finished for all files
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method apply_quotas
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method apply_remote_quotas
+DEBUG   |130912 01:21:19|AECoreDomainFinalization::_run() Running built-in method mail_administrators
+DEBUG   |130912 01:21:19|----- Finished operation 2 ------
+DEBUG   |130912 01:21:19|----- Finished operation 3 ------
+DEBUG   |130912 01:21:19|Successful Smart algorithm on AECoreDomainFinalization
+DEBUG   |130912 01:21:19|Kettenrad :: Domain 'finale' has finished.
+DEBUG   |130912 01:21:19|====== Finished Step number 2 ======
+DEBUG   |130912 01:21:19|*** Engine steps batching: Break flag detected.
+DEBUG   |130912 01:21:19|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130912 01:21:19|Sleeping for 1967.7259922028 msec, using usleep()
+DEBUG   |130912 01:21:21|Saving Kettenrad instance backend
+DEBUG   |130912 01:21:21|Closing SQL dump file.
+DEBUG   |130912 01:21:22| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130912 01:21:22|====== Starting Step number 3 ======
+DEBUG   |130912 01:21:22|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130912 01:21:22|Kettenrad :: No more domains to process
+DEBUG   |130912 01:21:22|*** Engine steps batching: Break flag detected.
+DEBUG   |130912 01:21:22|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130912 01:21:22|Sleeping for 1983.2029342651 msec, using usleep()
+DEBUG   |130912 01:21:24|Saving Kettenrad instance backend
+DEBUG   |130912 01:21:24|Closing SQL dump file.
+DEBUG   |130912 01:21:24| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130912 01:21:24|Kettenrad :: Just finished
+DEBUG   |130912 01:21:24|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130912 01:21:24|Sleeping for 1986.4959716797 msec, using usleep()
+DEBUG   |130912 01:21:26|Will not save a finished Kettenrad instance
+DEBUG   |130912 01:21:26|Closing SQL dump file.
+DEBUG   |140117 15:54:40|Kettenrad :: Attempting to load from database (backend)
+DEBUG   |140117 15:54:40| -- Stored Akeeba Factory (backend) not found - hard reset
+DEBUG   |140117 15:54:42|
+DEBUG   |140117 15:55:07|Kettenrad :: Attempting to load from database (backend)
+DEBUG   |140117 15:55:07| -- Stored Akeeba Factory (backend) not found - hard reset
+DEBUG   |140117 15:55:08|

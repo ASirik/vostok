@@ -1,0 +1,89 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+a { color: #999999; }
+
+a:hover,
+em, code { color: #F0CE47; }
+
+mark { background-color: #F3E29E; }
+
+ins { background-color: #DEDEDE; }
+
+::-moz-selection { background: #999999; color: #fff; }
+::selection { background: #999999; color: #fff; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown li.active .level1 { background: #999999; }
+
+.menu-dropdown li.level2:hover,
+.menu-dropdown li.level2.parent > a:hover,
+.menu-dropdown li.level3:hover { background-color: #F0CE47; }
+
+.menu-sidebar li.active .level1 { background-color: #999999; }
+
+.menu-line li a:hover { color: #F0CE47; }
+
+.menu-dropdown button:hover[type="submit"] { 
+	border-color: #F0CE47;
+	background-color: #F0CE47;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box .module-title { color: #F0CE47; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt:after { background: #F0CE47; }
+
+em.box { background: #999999; }
+
+.social-icons:hover,
+.button-primary { background-color: #F0CE47; }
+
+
+/* System-All
+----------------------------------------------------------------------------------------------------*/
+
+#system .title .color,
+.module .frontpage-title .color { color: #F0CE47; }
+
+#system .pagination strong { background-color: #999999; }
+
+.searchbox .results li.result.selected { background-color: #F0CE47; }
+
+.breadcrumbs a:hover { color: #F0CE47; }
+
+.breadcrumbs strong { color: #999999; }
+
+#system #respond h3 { color: #F0CE47; }
+
+#system span.highlight { background-color: #F3E29E; }
+
+
+
+/* Widgetkit Slideshow
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-micasa > div .next, 
+.wk-slideshow-micasa > div .prev { background-image: url(../images/widgetkit/buttons.png); }
+
+.wk-slideshow-micasa .nav span,
+.wk-slideset-micasa .nav.icon span { background-image: url(../images/widgetkit/nav.png); }
+
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+.contact-footer form.style button:hover { background-color: #F0CE47; }
+

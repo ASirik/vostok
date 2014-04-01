@@ -1,0 +1,151 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #EDEBDD url(../../images/background/paperboard/paperboard_bg.png) 0 0 repeat; } 
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+hr { border-top-color: #CFCCBF; }
+
+pre { background: #E2E0D2; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#bottom-a:before,
+#bottom-b:before { border-top-color: #CFCCBF; }
+
+#totop-scroller { 
+	background-image: url(../../images/background/paperboard/totop_scroller.png); 
+	background-color: #E2E0D2;
+}
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { background-color: #E2E0D2; }
+
+.menu-sidebar li.level1,
+.mod-box .module-title + .menu-sidebar li.level1:first-child { border-top-color: #CDCBBE; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box { border-color: #E2E0D2; }
+.mod-box-grey,
+.mod-headerbox-default .module-title { background-color: #E2E0D2; }
+
+.mod-headerline .module-title:before { border-top-color: #C2BFB3; }
+
+.grid-h .mod-line:before { border-color: #C2BFB3; }
+.grid-v .mod-line:before { border-top-color: #C2BFB3; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.button-default { background-color: #E2E0D2; }
+.mod-box-grey .button-default { background-color: #CFCCBF; }
+
+img.border-box { border-color: #E2E0D2; }
+
+ul.line > li { border-top-color: #CFCCBF; }
+.mod-box-grey ul.line > li { border-color: #CFCCBF; }
+
+table.zebra caption { color: #7F7E76; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background-color: #E2E0D2; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background-color: #E2E0D2; }
+
+.mod-box-grey ul.zebra > li.odd,
+.mod-box-grey table.zebra tbody tr.odd { background: #E2E0D2; }
+.mod-box-grey ul.zebra > li:nth-of-type(odd),
+.mod-box-grey table.zebra tbody tr:nth-of-type(odd) { background: #E2E0D2; }
+
+dl.separator dd,
+dl.separator dt:before { border-color: #C2BFB3; }
+
+.social-icons { background-image: url(../../images/background/paperboard/tools/social_icons.png); }
+.contact-icons { background-image: url(../../images/background/paperboard/tools/contact_icons.png); }
+
+.box-content,
+.box-note,
+.social-icons,
+.contact-icons { background-color: #E2E0D2; }
+
+form.box fieldset,
+form.style input, 
+form.style textarea, 
+form.style select, 
+form.style button, 
+form.style input[type="button"] { border-color: #C2BFB3; }
+
+hr.dotted { background-image: url(../../images/background/paperboard/tools/line_dotted.png); }
+
+
+/* System-all
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a,
+#system .pagination a { background-color: #E2E0D2; }
+
+.searchbox { border-color: #E2E0D2; }
+
+#system .author-box,
+#system #comments .comment-head {
+	border-color: #CFCCBF;
+	background-color: #E3E0D2;
+}
+
+#system #comments .comment-byadmin .comment-head { 
+	background-color: #DDF0E5;
+	border-color: #BCD1C4;
+}
+
+.comments-list > article { border-color: #CFCCBF; }
+
+#system #comments ul.level1 ul { background-image: url(../../images/background/paperboard/comments_arrow.png); }
+
+#system small { color: #A09E94; }
+
+#system .item > header .meta { color: #7F7E76; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .items .leading .item { border-bottom-color: #CFCCBF; }
+#system .items .item { border-top-color: #CFCCBF; }
+#system .item-list { border-top-color: #CFCCBF; }
+
+
+/* Widgetkit Slideset
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideset-micasa > div .next, 
+.wk-slideset-micasa > div .prev { 
+	background-color: #E2E0D2;
+	background-image: url(../../images/background/paperboard/buttons.png);
+}
+
+.wk-slideset-micasa ul.set li { border-color: #CFCCBF; }
+
+.wk-slideset-micasa .fader { opacity: 0.4; }
+.wk-slideset-micasa .fader:hover { opacity: 0.8; } 
+
+
+/* Widgetkit Slideshow
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-micasa .slides { border-color: #E2E0D2; }
+

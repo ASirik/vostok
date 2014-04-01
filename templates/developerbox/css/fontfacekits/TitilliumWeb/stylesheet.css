@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'titillium_webregular';
+    src: url('titilliumweb-regular_0-webfont.eot');
+    src: url('titilliumweb-regular_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titilliumweb-regular_0-webfont.woff') format('woff'),
+         url('titilliumweb-regular_0-webfont.ttf') format('truetype'),
+         url('titilliumweb-regular_0-webfont.svg#titillium_webregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titillium_websemibold';
+    src: url('titilliumweb-semibold_0-webfont.eot');
+    src: url('titilliumweb-semibold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('titilliumweb-semibold_0-webfont.woff') format('woff'),
+         url('titilliumweb-semibold_0-webfont.ttf') format('truetype'),
+         url('titilliumweb-semibold_0-webfont.svg#titillium_websemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.horiznav a{
+    font-family:'titillium_webregular';
+	font-size:120%;
+	font-weight:normal;
+	text-transform:capitalize;
+}
+ul.subul_main a,.top_menu .horiznav .group_holder li.haschild a{
+	font-weight:normal!important;
+	text-transform:capitalize!important;
+	font-size:100%!important;
+}
+/*Regular*/
+h1,h2,h3,h4,h5,h6,.article_title,.module_title,.pagetitle,.dbis .template_readmore2,.box_holder h4,.template_readmore,
+.dbme .yjme_item a.item_title,.dbme .yjme_item div.item_details,.dbym .yjme_item div.item_details,.dbme .yjme_item a.item_readmore,
+.dbym .yjme_item a.item_title,.subscribe_button,div.subCategory h2,a.subCategoryMore,div.catItemHeader h3.catItemTitle,span.catItemAuthor,
+span.catItemDateCreated,div.catItemReadMore a,div.itemHeader h2.itemTitle,div.itemHeader span.itemAuthor,span.itemDateCreated,
+h3.itemCommentsCounter,div.itemComments ul.itemCommentsList li span.commentAuthorName,div.itemComments ul.itemCommentsList li span.commentDate,
+div.itemCommentsForm h3,.tagView h2.itemTitle,#submitCommentButton,a.moduleItemTitle,.button,.validate,.yj_hover_title,#mmenu_holder{
+	font-weight:normal!important;
+    font-family:'titillium_webregular', Arial, sans-serif!important;
+}
+/*Bold*/
+div.itemComments ul.itemCommentsList li span.commentAuthorName,
+div.k2LatestCommentsBlock ul li span.lcUsername,.yj1 h2.module_title,.yj3 h2.module_title{
+	font-weight:normal!important;
+    font-family:'titillium_websemibold', Arial, sans-serif!important;
+}

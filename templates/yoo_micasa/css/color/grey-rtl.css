@@ -1,0 +1,34 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+/* Mega Drop-Down Menu */
+.menu-dropdown li.parent a.level1 > span,
+.menu-dropdown li.parent span.level1 > span { background-image: url(../../images/rtl/color/grey/menu_dropdown_level1_parent.png); }
+
+/* Sidebar/Accordion Menu */
+.menu-sidebar a.level1 > span, 
+.menu-sidebar span.level1 > span { background-image: url(../../images/rtl/color/grey/menu_sidebar_level1_hover.png); }
+
+.menu-sidebar ul a > span { background-image: url(../../images/rtl/color/grey/menu_sidebar_level2.png); }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+/* Buttons */
+.button-default:before,
+#system .item > .links a:before { background-image: url(../../images/rtl/color/grey/tools/button_default_hover.png); }
+
+.button-default { background-image: url(../../images/rtl/color/grey/tools/button_default.png); }
+
+
+/* System-All
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a { background-image: url(../../images/rtl/color/grey/tools/button_default.png); }
+
+.breadcrumbs a,
+.breadcrumbs > span { background-image: url(../../images/rtl/color/grey/breadcrumbs.png); }

@@ -1,0 +1,142 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #F2F1ED url(../../images/background/beige/beige_bg.png) 0 0 repeat; } 
+.big-bg{
+	background: url(../../images/background/beige/vostok_home_bg3.png) 0 0 no-repeat !important;
+	position: fixed;
+	border:none;
+	width:1176px;
+	top:-86px;
+	right:0;
+	z-index: -1;
+}
+body#page{
+	background: none;
+}
+#page-bg { background: url(../../images/background/beige/beige_img.png) 50% 0 no-repeat fixed; }
+#page-bg{
+	background: none;
+}
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+hr { border-top-color: #DADAD4; }
+
+pre { background: #E6E5E0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#bottom-a:before,
+#bottom-b:before { border-top-color: #DADAD4; }
+
+#totop-scroller { background-color: #E6E5E0; }
+
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown a.level1,
+.menu-dropdown span.level1 { background-color: #E6E5E0; }
+
+.menu-sidebar li.level1,
+.mod-box .module-title + .menu-sidebar li.level1:first-child { border-top-color: #D6D6D1; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box { border-color: #E6E5E0; }
+.mod-box-grey,
+.mod-headerbox-default .module-title { background-color: #E6E5E0; }
+
+.mod-headerline .module-title:before { border-top-color: #D6D6D1; }
+
+.grid-h .mod-line:before { border-color: #C6C6C1; }
+.grid-v .mod-line:before { border-top-color: #C6C6C1; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+.button-default { background-color: #E6E5E0; }
+.mod-box-grey .button-default { background-color: #DBDCD6; }
+
+img.border-box { border-color: #E6E5E0; }
+
+ul.line > li,
+.mod-box-grey ul.line > li { border-color: #CFCFCA; }
+
+ul.zebra > li.odd,
+table.zebra tbody tr.odd { background-color: #E6E5E0; }
+ul.zebra > li:nth-of-type(odd),
+table.zebra tbody tr:nth-of-type(odd) { background-color: #E6E5E0; }
+
+.mod-box-grey ul.zebra > li.odd,
+.mod-box-grey table.zebra tbody tr.odd { background: #DBDCD6; }
+.mod-box-grey ul.zebra > li:nth-of-type(odd),
+.mod-box-grey table.zebra tbody tr:nth-of-type(odd) { background: #DBDCD6; }
+
+dl.separator dd,
+dl.separator dt:before  { border-color: #D6D6D1; }
+
+.box-content,
+.box-note,
+.social-icons,
+.contact-icons { background-color: #E6E5E0; }
+
+form.box fieldset,
+form.style input, 
+form.style textarea, 
+form.style select, 
+form.style button, 
+form.style input[type="button"] { border-color: #D6D6D1; }
+
+
+/* System-all
+----------------------------------------------------------------------------------------------------*/
+
+#system .item > .links a,
+#system .pagination a { background-color: #E6E5E0; }
+
+.searchbox { border-color: #E6E5E0; }
+
+#system .author-box,
+#system #comments .comment-head { 
+	border-color: #DADAD4;
+	background-color: #E6E5E0;
+}
+
+.comments-list > article { border-color: #E6E5E0; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .items .leading .item { border-bottom-color: #DADAD4; }
+#system .items .item { border-top-color: #DADAD4; }
+#system .item-list { border-top-color: #E6E5E0; }
+
+
+/* Widgetkit Slideset
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideset-micasa > div .next, 
+.wk-slideset-micasa > div .prev { background-color: #E6E5E0; }
+
+.wk-slideset-micasa ul.set li { border-color: #DADAD4; }
+
+.wk-slideset-micasa .fader { opacity: 0.3; } 
+.wk-slideset-micasa .fader:hover { opacity: 0.6; } 
+
+
+/* Widgetkit Slideshow
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-micasa .slides { border-color:  #E6E5E0; }
+

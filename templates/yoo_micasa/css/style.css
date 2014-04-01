@@ -1,0 +1,81 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Style Style Sheet - Defines the main look like colors and backgrounds
+ * Not all style related CSS is included, only colors and backgrounds which may change for different theme styles
+ */
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+a { color: #6ACCE1; }
+
+a:hover,
+em, code { color: #EF7885; }
+
+mark { background-color: #FAD4D8; }
+
+ins { background-color: #DDEBF0; }
+
+::-moz-selection { background: #6ACCE1; color: #fff; }
+::selection { background: #6ACCE1; color: #fff; }
+	
+
+/* Menus
+----------------------------------------------------------------------------------------------------*/
+
+.menu-dropdown li.active .level1 { background: #6ACCE1; }
+
+.menu-dropdown li.level2:hover,
+.menu-dropdown li.level2.parent > a:hover,
+.menu-dropdown li.level3:hover { background-color: #EF7885; }
+
+.menu-sidebar li.active .level1 { background-color: #6ACCE1; }
+
+.menu-line li a:hover { color: #EF7885; }
+
+.menu-dropdown button:hover[type="submit"] { 
+	border-color: #EF7885;
+	background-color: #EF7885;
+}
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-box .module-title { color: #EF7885; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+dl.separator dt:after { background: #EF7885; }
+
+em.box { background: #6ACCE1; }
+
+.social-icons:hover,
+.button-primary { background-color: #EF7885; }
+
+
+/* System-All
+----------------------------------------------------------------------------------------------------*/
+
+#system .title .color,
+.module .frontpage-title .color { color: #EF7885; }
+
+#system .pagination strong { background-color: #6ACCE1; }
+
+.searchbox .results li.result.selected { background-color: #EF7885; }
+
+.breadcrumbs a:hover { color: #EF7885; }
+
+.breadcrumbs strong { color: #6ACCE1; }
+
+#system #respond h3 { color: #EF7885; }
+
+
+/* Custom
+----------------------------------------------------------------------------------------------------*/
+
+.contact-footer form.style button:hover { background-color: #EF7885; }
+

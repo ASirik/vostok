@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6.0" client="site" >
+    <name>Magic Slideshow module for Joomla 1.6</name>
+    <creationDate>04.12.2008</creationDate>
+    <author>MagicToolbox</author>
+    <copyright>MagicToolbox.com</copyright>
+    <license>http://www.opensource.org/licenses/artistic-license-2.0  Artistic License 2.0 (GPL compatible)</license>
+    <authorEmail>support@magictoolbox.com</authorEmail>
+    <authorUrl>http://magictoolbox.com</authorUrl>
+    <version>2.20.5</version>
+    <description>Magic Slideshow&lt;sup&gt;&amp;#8482;&lt;/sup&gt; lets you display one image after another in rotation. It's easy to install and customise on your website. Try out some customisation options http://www.magictoolbox.com/magicslideshow/integration/. By http://www.magictoolbox.com/.</description>
+	<scriptfile>installScript.php</scriptfile>
+    <files>
+        
+                <filename>LICENSE.txt</filename>
+            
+                <filename>core/graphics/arrows01.png</filename>
+            
+                <filename>core/graphics/arrows02.png</filename>
+            
+                <filename>core/graphics/arrows03.png</filename>
+            
+                <filename>core/graphics/arrows04.png</filename>
+            
+                <filename>core/graphics/arrows05.png</filename>
+            
+                <filename>core/graphics/arrows06.png</filename>
+            
+                <filename>core/graphics/arrows07-small.png</filename>
+            
+                <filename>core/graphics/arrows07.png</filename>
+            
+                <filename>core/graphics/arrows08-full.gif</filename>
+            
+                <filename>core/graphics/arrows08.gif</filename>
+            
+                <filename>core/graphics/arrows09.png</filename>
+            
+                <filename>core/graphics/loader.gif</filename>
+            
+                <filename>core/magicslideshow.css</filename>
+            
+                <filename>core/magicslideshow.js</filename>
+            
+                <filename>index.html</filename>
+            
+                <filename>installScript.php</filename>
+            
+                <filename>magicslideshow.module.core.class.php</filename>
+            
+                <filename>magictoolbox.params.class.php</filename>
+            
+                <filename module="mod_magicslideshow">mod_magicslideshow.php</filename>
+            
+                <filename>mod_magicslideshow.xml</filename>
+            
+                <filename>readme.txt</filename>
+            
+    </files>
+    <config><fields name="params"><fieldset name="basic"><field name="thumbnails" type="list" default="off" label="Show thumbnails" >
+<option value="inside">inside</option>
+<option value="outside">outside</option>
+<option value="off">off</option>
+</field>
+<field name="container-size" type="text" default="0" label="Size of thumbnail container (pixels)" description="0 - auto" />
+<field name="thumbnail-opacity" type="text" default="0.8" label="Opacity of thumbnails (0-1)" />
+<field name="container-position" type="list" default="top" label="Container position" description="Position of thumbnail container" >
+<option value="top">top</option>
+<option value="right">right</option>
+<option value="bottom">bottom</option>
+<option value="left">left</option>
+</field>
+<field name="container-opacity" type="text" default="0.3" label="Container opacity" description="Opacity of thumbnail container" />
+<field name="container-padding" type="text" default="0" label="Container padding" description="Padding between container and slideshow (pixels)" />
+<field name="container-speed" type="text" default="10" label="Container speed" description="Speed that thumbnails move (pixles per second)" />
+<field name="show-message" type="radio" default="Yes" label="Show message under slideshow?" >
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</field>
+<field name="message" type="text" default="" label="Message under Slideshow" description="use 'none' value instead empty" />
+<field name="links-window" type="list" default="_self" label="Page where a link should load" >
+<option value="_self">_self</option>
+<option value="_blank">_blank</option>
+<option value="_parent">_parent</option>
+<option value="_top">_top</option>
+</field>
+<field name="preserve" type="radio" default="Yes" label="Preserve image sizes" description="Use original image proportions or stretch them to same size" >
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</field>
+<field name="start" type="text" default="1" label="Starting image number" description="Choose which image to start slideshow at" />
+<field name="z-index" type="text" default="1" label="Starting z-Index" description="Adjust the stack position above/below other elements" />
+<field name="loading-text" type="text" default="" label="Loading text" description="Display text with the loading icon (empty by default)" />
+<field name="width" type="text" default="0" label="Slideshow width (pixels)" description="0 - auto" />
+<field name="height" type="text" default="0" label="Slideshow height (pixels)" description="0 - auto" />
+<field name="loop" type="radio" default="Yes" label="Restart slideshow type" description="Restart slideshow after last image" >
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</field>
+<field name="loop-type" type="radio" default="next" label="Loop type" description="Continue to next image or slide all the way back" >
+<option value="first">first</option>
+<option value="next">next</option>
+</field>
+<field name="speed" type="text" default="5" label="Slideshow speed" description="Change the slide speed in seconds (0 = manual)" />
+<field name="pause" type="list" default="off" label="Pause slideshow" >
+<option value="hover">hover</option>
+<option value="click">click</option>
+<option value="thumbnail-click">thumbnail-click</option>
+<option value="off">off</option>
+</field>
+<field name="arrows" type="radio" default="Yes" label="Show arrows" >
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</field>
+<field name="effect-jump" type="list" default="fade" label="Effect when thumbnail is clicked" >
+<option value="scroll">scroll</option>
+<option value="fade">fade</option>
+<option value="default">default</option>
+</field>
+<field name="effect" type="list" default="scroll" label="Effect for image sliding" >
+<option value="scroll">scroll</option>
+<option value="fade">fade</option>
+<option value="default">default</option>
+</field>
+<field name="effect-next" type="list" default="scroll" label="Effect when arrow is clicked" >
+<option value="scroll">scroll</option>
+<option value="fade">fade</option>
+<option value="default">default</option>
+</field>
+<field name="effect-duration" type="text" default="1.0" label="Duration of effects (seconds)" />
+<field name="direction" type="list" default="right" label="Direction of slide" >
+<option value="top">top</option>
+<option value="right">right</option>
+<option value="bottom">bottom</option>
+<option value="left">left</option>
+</field>
+<field name="show-text" type="radio" default="Yes" label="Show text on slideshow" >
+<option value="Yes">Yes</option>
+<option value="No">No</option>
+</field>
+<field name="text" type="radio" default="effect" label="Text shows" description="Display text always or give it an effect" >
+<option value="effect">effect</option>
+<option value="always">always</option>
+</field>
+<field name="text-delay" type="text" default="0.5" label="Text shows delay" description="Delay before the text effect starts" />
+<field name="text-opacity" type="text" default="0.6" label="Text opacity" description="Opacity of text and background" />
+<field name="text-effect" type="list" default="fixed" label="Text effect" description="Choice of text effects" >
+<option value="fixed">fixed</option>
+<option value="slide">slide</option>
+<option value="fade">fade</option>
+</field>
+<field name="text-position" type="list" default="bottom" label="Text position" description="Position of text (must be different to 'container-position')" >
+<option value="top">top</option>
+<option value="bottom">bottom</option>
+</field></fieldset><fieldset name="advanced">
+        <!--for fix url's in css files-->
+        <field name="fix_css_file" type="list" default="1" label="Fix css file?" description="Only use this if you know the consequences! Select 'Fix' to fix css file the next time the module is loaded.">
+            <option value="0">Skip</option>
+            <option value="1">Fix</option>
+        </field>
+    </fieldset></fields></config>
+</extension>

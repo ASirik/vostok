@@ -1,0 +1,56 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+@import url(../warp/css/base.css);
+
+
+/* New style-related Base Values
+----------------------------------------------------------------------------------------------------*/
+
+body { font: normal 14px/20px Arial, Helvetica, sans-serif; }
+
+mark, ins { color: #333333; }
+
+hr { border-top-color: #EBEBEB; }
+
+pre { 
+	background: #F5F5F5;
+	border-radius: 6px; 
+}
+
+/*=my custom changes*/
+@import url(http://fonts.googleapis.com/css?family=Overlock+SC);
+body{
+	font-family: 'Overlock SC', cursive !important;
+	color:#BD1E00 !important;
+}
+.menu-dropdown a.level1, .menu-dropdown span.level1, h1, h2, h3, h4, h5, h6{
+	font-family: 'Overlock SC', cursive !important;
+}
+
+.menu-dropdown a.level1 > span, .menu-dropdown span.level1 > span{
+	line-height: 41px !important;
+}
+ul.slides li img{
+	border-radius:10px;
+	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.75);
+box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.75);
+}
+
+#sidebar-a .mod-box{
+	background: rgb(238,117,64);
+	border:none !important;
+}
+
+#sidebar-a .mod-box a{
+	color:#68615D !important;
+}
+
+#sidebar-a .mod-box h3{
+	color:#AC0000;
+}
+
+#maininner{
+	background: rgba(255,255,255, .6) !important;
+	border-radius: 10px;
+}

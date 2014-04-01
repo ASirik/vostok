@@ -1,0 +1,77 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Background
+----------------------------------------------------------------------------------------------------*/
+
+body#page { background: #D0D0D0 url(../../images/background/noise/noise_bg.png) 0 0 repeat; }
+
+#page-bg { 
+	background: url(../../images/background/noise/gradient.svg) 50% 0 fixed no-repeat;
+	background-size: 100% 100%;
+}
+
+
+/* Base
+----------------------------------------------------------------------------------------------------*/
+
+hr { border-top-color: #C8C8C8; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+#bottom-a:before,
+#bottom-b:before { border-top-color: #C8C8C8; }
+
+
+/* Modules
+----------------------------------------------------------------------------------------------------*/
+
+.mod-headerline .module-title:before { border-top-color: #BABABA; }
+
+.grid-h .mod-line:before { border-color: #BABABA; }
+.grid-v .mod-line:before { border-top-color: #BABABA; }
+
+
+/* Tools
+----------------------------------------------------------------------------------------------------*/
+
+ul.line > li { border-color: #CCCCCC; }
+
+dl.separator dd,
+dl.separator dt:before { border-color: #BABABA; }
+
+form.box fieldset, 
+form.style input, 
+form.style textarea, 
+form.style select, 
+form.style button, 
+form.style input[type="button"] { border-color: #C8C8C8; }
+
+ #bottom-b form.style input { border-color: #D2D2D2; }
+
+/* System-all
+----------------------------------------------------------------------------------------------------*/
+
+.searchbox { border-color: #D2D2D2; }
+
+#system .author-box,
+#system #comments .comment-head { border-color: #D6D6D6; }
+
+
+/* System
+----------------------------------------------------------------------------------------------------*/
+
+#system .items .leading .item { border-bottom-color: #BABABA; }
+#system .items .item { border-top-color: #BABABA; }
+#system .item-list { border-top-color: #BABABA; }
+
+
+/* Widgetkit Slideset
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideset-micasa ul.set li { border-color: #C8C8C8; }
+
+.wk-slideset-micasa .fader { opacity: 0.4; } 
+.wk-slideset-micasa .fader:hover { opacity: 0.9; } 
+

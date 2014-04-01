@@ -1,0 +1,14 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+body,
+select,
+input,
+textarea,
+button  { font-family: "NobileRegular"; }
+
+body {
+	font-size: 13px;
+	line-height: 20px; 
+}
+
+.searchbox input { font-size: 14px; }

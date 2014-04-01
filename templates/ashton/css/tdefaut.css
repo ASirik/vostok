@@ -1,0 +1,1146 @@
+/****************************************************
+#####################################################
+##-------------------------------------------------##
+##                  ASHTON                         ##
+##-------------------------------------------------##
+## Copyright = globbersthemes.com- 2012            ##
+## Date      = fevrier 2013                         #
+## Author    = globbers                            ##
+## Websites  = http://www.globbersthemes.com       ##
+##                                                 ##
+#####################################################
+****************************************************/
+
+ html { 
+ height: 100%;
+ 
+ }  
+ 
+ body{
+ margin:0;  
+ padding:0;  
+ text-align:center;  
+ background:#fff ;  
+ font-size:13px;  
+ color:#030303;  
+ font-family: tahoma, arial, sans-serif;  
+ font-weight:bold; 
+ 
+ }  
+ 
+ p {  
+ font-size: 100%;  
+ 
+ }  
+ 
+ h1 {  
+ font-size: 200%; 
+ 
+ }  
+ 
+ h2 {  
+ font-size: 150%; 
+font-family: Oswald, tahoma, arial, sans-serif; 
+
+ }  
+ 
+ h3 { 
+ font-size: 125%; 
+ font-family: Oswald, tahoma, arial, sans-serif; 
+  
+ }  
+ 
+ h4, h5, h6 {  
+ font-size: 100%; 
+ 
+ }  
+ 
+ /* liens hypertextes*/  
+ a:link, a:visited {  
+ text-decoration:none;  
+ color:#030303;  
+ font-weight:bold; 
+
+ } 
+ 
+ a:hover {  
+ color:#c29862; 
+ -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;	
+	transition: all 0.5s ease;
+
+ }  
+ 
+ ul { margin:0;  
+ padding-left:20px; 
+
+ }  
+ 
+ li {  list-style-type:square;  
+ background:transparent; 
+ margin: 4px;  
+ 
+ }  
+ 
+ img {  
+ border:none;  
+ margin:5px;  
+ padding:0; 
+ 
+ }  
+ 
+ img .caption {  
+ text-align: left; 
+
+ }  
+ 
+ .highlight{  
+ background:#030303;  
+ padding: 0px 2px 0px 2px;  
+ color:#ffffff;  
+ -moz-border-radius: 6px 6px 6px 6px;  
+ -webkit-border-radius: 6px 6px 6px 6px;  
+ border-radius: 6px 6px 6px 6px;  
+ -webkit-border-top-left-radius: 6px; 
+ /* pour Chrome */   
+ -webkit-border-top-right-radius: 6px;  
+ /* pour Chrome */   
+ -webkit-border-top-top-radius: 6px;  
+ /* pour Chrome */   
+ -webkit-border-top-bottom-radius: 6px;  
+ /* pour Chrome */  
+
+ }  
+ 
+ .button {  
+ background:#030303;  
+ border:none;  
+ color:#fff;  
+ font-weight:bold;  
+ padding:4px;  
+ -moz-border-radius: 6px 6px 6px 6px;  
+ -webkit-border-radius: 6px 6px 6px 6px; 
+ border-radius: 6px 6px 6px 6px;  
+ -webkit-border-top-left-radius: 6px;  
+ /* pour Chrome */  
+ -webkit-border-top-right-radius: 6px;  
+ /* pour Chrome */   
+ -webkit-border-top-top-radius: 6px;  
+ /* pour Chrome */   
+ -webkit-border-top-bottom-radius: 6px; 
+ /* pour Chrome */ 
+ 
+ } 
+ 
+ .inputbox {  
+ color:#fff;  
+ background:#030303;  
+ border:none; 
+ padding:4px; 
+ font-weight:bold; 
+ -moz-border-radius: 6px 6px 6px 6px;   
+ -webkit-border-radius: 6px 6px 6px 6px;
+ border-radius: 6px 6px 6px 6px;  
+ -webkit-border-top-left-radius: 6px; 
+ /* pour Chrome */   
+ -webkit-border-top-right-radius: 6px; 
+ /* pour Chrome */  
+ -webkit-border-top-top-radius: 6px; 
+ /* pour Chrome */  
+ -webkit-border-top-bottom-radius: 6px; 
+ /* pour Chrome */ 
+
+ }
+ 
+ .pagewidth{
+ width:919px; 
+ text-align:center;
+ background:transparent; 
+ margin-left:auto;
+ margin-right:auto;
+ margin-top:0px;
+ margin-bottom:0px;
+ position:relative;
+
+ } 
+ 
+ fieldset {
+ margin:5px; 
+ padding:5px;
+ border:none;
+ 
+ }   
+
+ /*************************/ 
+ 
+ #header {
+ float:left;
+ width:919px;
+ height:146px;
+ background: url(../images/header.png) 0 0 no-repeat;
+ margin-top:70px; 
+ 
+ }
+ 
+ #header-top {
+ float:left;
+ width:897px;
+ height:75px;
+ background: transparent;
+ margin-left:10px;
+ margin-top:13px;
+ 
+ }
+ 
+ #sitename {
+ float:left;
+ width:309px;
+ height:45px;
+ margin:13px 10px 0px 10px;
+ 
+ }
+ 
+ #header-bottom {
+ float:left;
+ width:897px;
+ height:45px;
+ background:transparent;
+ margin-left:11px;
+ margin-top:12px;
+ 
+ }
+ 
+ /*******************/
+ #topmenu {
+ float:left;
+ width:770px;
+ height:40px;
+ background:transparent;
+ 
+ }
+ 
+ /***************************/
+ .navigation { 
+ float:left;
+ width:770px; 
+ margin-top:10px;
+ background:transparent;
+ margin-left:5px;
+ font-family: Oswald, tahoma, arial, sans-serif; 
+  
+ }
+ 
+ .navigation ul {
+ list-style: none; 
+ margin:0; 
+ padding:0;
+ float: left;
+ 
+ }
+ 
+ .navigation ul ul {
+ margin: 0; /* all lists */
+ padding: 0;
+ 
+ }
+ 
+ .navigation ul li {
+ margin:0 7px;
+ padding: 0;
+ float: left;
+ list-style: none;
+ background: none;
+ display: block;	
+ 
+ }
+ 
+ .navigation ul li ul {
+ width: 200px;
+ position: absolute; /* second-level lists */
+ z-index: 99;
+ left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+ height: auto;
+ w\idth: 200px;
+ 
+ }
+ 
+ .navigation ul li ul ul {
+ margin: 0; /* third-and-above-level lists */
+ 
+ }
+ 
+ .navigation ul li li {
+ padding: 0;
+ margin: 0;
+ width: 100%;
+ 
+ }
+ 
+ .navigation ul ul a {
+ width: 100%;
+ 
+ }
+ 
+ .navigation ul li:hover ul ul,
+ .navigation ul li:hover ul ul ul,
+ .navigation ul li.sfhover ul ul,
+ .navigation ul li.havechildsfhover ul ul,
+ .navigation ul li.havechild-activesfhover ul ul,
+ .navigation ul li.activesfhover ul ul,
+ .navigation ul li.sfhover ul ul ul,
+ .navigation ul li.havechildsfhover ul ul ul,
+ .navigation ul li.havechild-activesfhover ul ul ul,
+ .navigation ul li.activesfhover ul ul ul {
+ left: -999em;	
+ 
+ }
+ /* This "unhides" the sub-menus (left: -999em is what hides them) */
+ .navigation ul li:hover ul,.navigation ul li li:hover ul,
+ .navigation ul li li li:hover ul,.navigation ul li.sfhover ul,
+ .navigation ul li.havechildsfhover ul,
+ .navigation ul li.havechild-activesfhover ul,
+ .navigation ul li.activesfhover ul,
+ .navigation ul li li.sfhover ul,
+ .navigation ul li li.havesubchildsfhover ul,
+ .navigation ul li li.havesubchild-activesfhover ul,
+ .navigation ul li li.activesfhover ul,
+ .navigation ul li li li.sfhover ul,.navigation ul li li li.havesubchildsfhover ul,
+ .navigation ul li li li.havesubchild-activesfhover ul,
+ .navigation ul li li li.activesfhover ul {
+ left: auto;	
+ 
+ }
+ 
+ /* STYLING THE MENU-----------------------------------*//* 1st level */
+ .navigation ul li a {
+ padding: 0px 18px 0 8px ;
+ margin:0;
+ display: block; 
+ font-weight: normal;
+ font-size:14px;
+ text-transform:uppercase;
+ height:40px;
+ color:#fff;
+ 
+ }
+ 
+ .navigation ul li a:hover {
+ color:#fff;
+ color:#deae6f;
+ 
+ }
+ 
+ .navigation ul li {
+ background:transparent;
+ height:40px;
+ 
+ }
+ 
+ .navigation ul li span {
+ background:transparent;
+ height:40px;
+ padding:0px ;
+ margin:0 ; 
+ 
+ }
+ 
+ .navigation li.active a{
+ color:#deae6f;
+ 
+ }
+ 
+ /* 2nd level and above */ 
+ .navigation ul li ul {
+ background: url(../images/bg-ul.jpg) 0 0 repeat;
+ margin-top: -10px;
+ padding-bottom: 10px;
+ padding-top: 0px;
+ text-align:left !important;
+ padding-bottom:0px;
+ 
+ }
+ 
+ .navigation ul li ul li {
+ height:40px !important;
+ background: url(../images/bg-li.jpg) 0 100% repeat-x;
+ 
+ } 
+ 
+ .navigation ul li ul li a:hover,
+ .navigation ul li ul li.active a  {
+ height:40px !important;
+ background:none !important;
+ 
+ }  
+ 
+ .navigation ul li ul li a{height:40px !important;
+ padding-left:31px;
+ background:none !important;
+ padding-top:10px !important;
+ color:#ffffff !important;
+ 
+ } 
+
+ .navigation ul li ul li a:hover {
+ height:40px ;
+ background:none !important;
+ color:#deae6f !important;
+ 
+ } 
+ 
+ .navigation ul li ul li.active {
+ height:40px ;
+ background:none !important;
+ 
+ }
+ 
+ .navigation ul li ul li.active span {
+ height:41px ;
+ background:none !important;
+ 
+ }
+ 
+ .navigation ul li ul li.active a {
+ height:40px ;
+ background:none !important;
+ 
+ } 
+ 
+ .navigation ul li ul li ul {
+ margin-left:200px;
+ margin-top: -30px;
+ padding-bottom: 3px;
+ padding-top: 0px;
+ text-align:left !important;
+ padding-bottom: 0px;
+ 
+ } 
+ 
+ /**********************/
+ #social-icons {
+ float:left;
+ width:100px;
+ height:40px;
+ background:transparent;
+ margin:0 0 0 10px;
+ 
+ }
+ 
+ /*********************/
+ #wrapper-slide{
+ float:left;
+ width:918px;
+ height:410px !important;
+ background: url(../images/bg-slide.png) 0 0 no-repeat;
+ margin-left:1px;
+ 
+ }
+ 
+ #slide{
+ float:left;
+ width:918px;
+ height:410px;
+ background:transparent;
+ 
+ }
+ 
+ /* The Nivo Slider styles */
+ .nivoSlider {
+ float:left;	
+ position:relative;
+ width: 918px;	
+ height: 410px ;	
+ margin-left: 10px;
+ margin-top: 0px;	
+ background: url(../images/loading.gif) no-repeat 50% 50%;
+ 
+ }
+ 
+ .nivoSlider img {	
+ position:absolute;	
+ top:0px;	
+ left:0px;	
+ display:none;   
+ width:896px; /* Make sure your images are the same size */    
+ height:410px; /* Make sure your images are the same size */
+ 
+ }
+ 
+ .nivoSlider a {    
+ border:0;    
+ display:block;	
+ color: #fff;
+  
+ }
+ 
+ /* If an image is wrapped in a link */
+ .nivoSlider a.nivo-imageLink {	
+ position:absolute;	
+ top:0px;	
+ left:0px;	
+ width:100%;	
+ height:100%;	
+ border:0;	
+ padding:0;	
+ margin:0;
+ z-index:6;	
+ display:none;
+ 
+ }
+ 
+ /* The slices and boxes in the Slider */
+ .nivo-slice {	
+ display:block;	
+ position:absolute;	
+ z-index:5;	
+ height:100%;
+ 
+ }
+ 
+ .nivo-box {
+ display:block;	
+ position:absolute;
+ z-index:5;
+ 
+ }
+ 
+ /* Caption styles */
+ .nivo-caption {
+ position:absolute;	
+ left: 40px;	
+ /* right:0px; */	
+ bottom:5px;	
+ background:transparent;
+ color:#fff;	
+ z-index:8; 
+ width: 800px;	
+ padding: 20px;
+ overflow: hidden;	
+ font-family: Oswald, tahoma, arial, sans-serif; 
+ font-size:25px;
+ 
+ }
+ 
+ .nivo-caption p {
+ padding:0 !important;	
+ margin:0 !important;	
+ font-size:25px;	
+ font-weight:normal;	
+ 
+ }
+ 
+ .nivo-caption a {
+ display:inline !important;	
+ border-bottom: 1px dotted #fff;
+
+ }
+ 
+ .nivo-caption a:hover {
+ border-bottom-style: solid;	
+ text-decoration: none;
+
+ }
+ 
+ .nivo-html-caption {  
+ display:none;
+ 
+ }
+ 
+ /* Direction nav styles (e.g. Next & Prev) */
+ .nivo-directionNav a {
+ display:none; 
+ 
+ }
+ 
+ .nivo-prevNav {
+ display:none;
+ 
+ }
+ 
+ .nivo-nextNav {	
+ display:none;
+ 
+ }
+ 
+ /* Control nav styles (e.g. 1,2,3...) */
+ .nivo-controlNav {
+ display:none;
+
+ }
+ .nivo-controlNav a {
+ display:none; 
+
+ }
+ 
+ .nivo-controlNav a:hover {
+ }
+ 
+ .nivo-controlNav .active {
+ }
+ 
+ /**************************/
+ #wrapper {
+ float:left;
+ width:918px;
+ background: url(../images/wrapper.png) 0 0 repeat-y;
+ margin-left:1px;
+ 
+ }  
+ 
+ /* ++++++++++++++  main general  ++++++++++++++ */ /***********************/
+ #main {
+ float:left;
+ width:560px;
+ margin-left:25px;
+ text-align:left;
+ margin-top:20px;
+ 
+ }
+ 
+ #main-full {
+ float:left;
+ width:865px;
+ text-align:left;
+ 
+ }
+ 
+ /*********joomla style**************/
+ ul.actions  {
+ background:transparent;
+ margin:0;
+ 
+ }
+ 
+ ul.actions  li{
+ list-style:none;
+ float:right;
+ 
+ }
+ 
+ .article-info {}
+ 
+ dt.article-info-term {
+ display:none;
+ 
+ }
+ 
+ dl.article-info dd{
+ margin:0;
+ font-size:12px;
+ 
+ }
+ 
+ .items-leading {
+ width:100%;
+ font-weight:normal;
+ 
+ }
+ 
+ .items-row {
+ width:100%;
+ font-weight:normal;
+ 
+ }
+ 
+ .items-page,.category-desc {
+ width:100%;
+ font-weight:normal;
+ 
+ }
+ 
+ .items-leading,
+ .items-row .item, 
+ .item-page ,
+ .category-desc {
+ width:100%;
+ background:#fff ;
+ border:1px solid #e4e4e4;
+ padding:10px;
+ margin-bottom:20px;
+ padding-bottom:20px; 
+ box-shadow: 2px 1px 1px #fafafa;
+ 
+ }
+ 
+ .items-leading h2,
+ .items-leading h2 a ,
+ .items-row h2,
+ .items-row h2 a ,
+ .item-page h2,
+ .item-page h2 a {
+ font-size:18px;
+  font-weight: normal;
+ color:#020202;
+ background: url(../images/bg-h3.jpg) repeat-x 0 0;
+ padding-top:5px;
+ padding-bottom:10px;
+ margin:0;
+ text-transform:capitalize;
+  
+ } 
+ 
+ .items-leading h2 ,.items-row h2 ,.item-page h2 { 
+ border-bottom:1px solid #e4e4e4; 
+ 
+ } 
+ 
+ .items-leading h2 a:hover, .items-row h2 a:hover, .item-page h2 a:hover {
+ color:#c29862;
+ 
+ } 
+ 
+ .item-separator {
+ width:100%;
+ display:block;
+ height:10px;
+ 
+ }
+ 
+ .readmore a {
+ float:left;
+ font-weight: normal;
+ background: url(../images/puce.jpg) no-repeat 0 4px;
+ padding-left:15px;
+ margin-bottom:15px !important;
+ 
+ }
+ 
+ .categories-list li {list-style:none;}
+ ul#archive-items li {list-style:none;}
+ 
+ .items-more{
+ padding:10px;
+ background:#fff url(../images/bg-h3.jpg) repeat 0 0;
+ border:1px solid #e8e8e8;
+ 
+ } 
+ .items-more h3{
+ font-weight:normal;
+ margin:0;
+ padding:10px 5px 10px 5px;
+ font-size:1.4em;
+ background: transparent;
+  
+ } 
+ 
+ .items-more ol{
+ line-height:1.3em;
+ margin:0 ;
+ padding:10px 0 5px 2px;
+ 
+ } 
+ 
+ .items-more ol li{
+ padding:2px;
+ background:transparent;
+ list-style:none;
+ padding-left:15px;
+ 
+ } 
+ 
+ .items-more ol li a {
+ display:inline;
+ margin:0;
+ font-weight:normal;
+ padding:5px;
+ 
+ } 
+ 
+ .items-more ol li a:hover, 
+ .items-more ol li a:active, 
+ .items-more ol li a:focus {
+ font-weight:normal;
+ padding:5px 5px 5px 5px;
+ text-decoration:none
+ 
+ } 
+ 
+ #main img{
+ margin:5px 15px 15px 0px;
+ 
+ }
+ 
+ /* Pagination ---*/
+ .counter {
+ text-align:center;
+ padding:10px 0;
+ 
+ }
+ 
+ .pagination { 
+ float: left;
+ width: 100%; 
+ padding:4px 0; 
+ text-align:center;
+ margin-bottom:25px;
+ 
+ }
+ 
+ .pagination li {
+ background: none;
+ display: inline;
+ margin: 0;
+ padding: 6px;
+ margin:0 3px;
+ overflow: hidden;
+ 
+ }
+ 
+ .pagination li span {
+ padding: 6px; 
+ line-height: 20px;
+
+ }
+ 
+ .pagination li a {
+ color: #000;
+ line-height: 20px;
+ padding:7px;
+ text-decoration: none;
+ background:#fff;
+ 
+ }
+ 
+ .pagination li a:hover, .pagination li a:active, 
+ .pagination li a:focus {
+ text-decoration: none;
+ color:#fff;
+ background:#222;
+ 
+ } 
+ 
+ /* ++++++++++++++  nav entre article  ++++++++++++++ */
+ ul.pagenav {
+ position:relative;
+ margin-top:25px; 
+ 
+ } 
+ ul.pagenav li { 
+ list-style: none;
+ padding: 7px; 
+ background:#030303; 
+ color:#fff; 
+ 
+ }
+ 
+ ul.pagenav li a {
+ list-style: none;
+ padding: 7px;
+ color:#fff; 
+ 
+ } 
+ 
+ ul.pagenav li:hover,
+ ul.pagenav li:focus {
+ background:#010101;
+ color:#fff; 
+ 
+ } 
+ 
+ ul.pagenav li a:hover, 
+ ul.pagenav li a:focus {
+ text-decoration:none;
+ color:#fff;
+ 
+ } 
+ 
+ ul.pagenav li.pagenav-prev {
+ float: left;
+
+ } 
+ 
+ ul.pagenav li.pagenav-next { 
+ float:right;
+ 
+ }
+ 
+ /******************/
+ #colonne {
+ float:left;
+ width:260px;
+ background:transparent;
+ margin-bottom:20px;
+ margin-left:35px;
+ margin-top:20px;
+ 
+ }
+ 
+ #right {
+ float:left;
+ width:250px;
+ background:transparent;
+ 
+ }
+ 
+ #right h3 {
+ font-size:18px;
+ font-weight: normal;
+ color:#020202;
+ background: url(../images/bg-h3.jpg) repeat-x 0 0;
+ padding-top:5px;
+ padding-bottom:10px;
+ margin:0;
+ text-transform:capitalize;
+ border-bottom:1px solid #e4e4e4; 
+ 
+ }
+ 
+ #right ul {
+ padding-left:15px;
+ padding-top:15px;
+ 
+ }
+ 
+ #right .moduletable_menu,
+ #right .moduletable {
+ width:250px;
+ background:#fff ;
+ border:1px solid #e4e4e4;
+ padding:10px;
+ margin-bottom:20px;
+ padding-bottom:20px; 
+ box-shadow: 2px 1px 1px #fafafa;
+ text-align:left;
+ 
+ }
+ 
+ /* ++++++++++++++  tabs/ slide  ++++++++++++++ */
+ .modulebox1 {
+ float:left;
+ width:270px;
+ height:auto !important;
+ border:1px solid #e4e4e4;
+ margin-bottom:20px;
+ box-shadow: 2px 1px 1px #fafafa;
+ background:transparent;
+ text-align:left;
+ 
+ }
+ 
+ .sepbottom {display:none;}
+ .sepbottom2 {display:none;}
+ 
+ .tabcontent {
+ padding:10px ; 
+ margin:0px 0 0 0; 
+ background:transparent; 
+ width:250px !important;
+ 
+ }
+ 
+ ul.tabs {
+ overflow:hidden;
+ padding:0px 0 0px 0 !important;
+ height:47px !important;
+ margin:0 !important;
+ text-decoration:none;
+ background: url(../images/bg-h3.jpg) repeat-x 0 0;
+ border-bottom:1px solid #e4e4e4;
+ width:270px; 
+ 
+ }
+ 
+ .tabcontent img {
+ padding:0 10px 10px 10px  ;
+
+ }
+ 
+ .tabopen {
+ display:block;
+ margin-bottom:0px;
+ overflow:hidden;
+ 
+ }
+ 
+ .tabclosed { 
+ display:none;
+
+ }
+ 
+ a.linkopen {
+ background:transparent;
+ 
+ }
+ 
+ ul.tabs li {
+ list-style-type:none;
+ float:left;
+ width:auto;
+ padding:14px 0 0px 0;
+ display:block;
+ margin:0 ;
+ font-size:1em;
+ text-decoration:none;
+ background: transparent ;
+  font-family: Oswald, tahoma, arial, sans-serif; 
+  
+ }
+ 
+ ul.tabs li a:link,ul.tabs li a:visited {
+ font-size:18px !important;
+ font-weight: normal;
+ padding:5px 10px;
+ margin:0 !important;
+ text-transform:capitalize !important;
+ border-left:1px solid #e4e4e4 !important;  
+
+ }
+ 
+ a.linkopen:link,a.linkopen:visited { 
+ text-decoration:none !important;
+ color:#c29862 !important; 
+ 
+ }
+ 
+ a.linkclosed:link,a.linkclosed:visited {
+ font-size:18px !important;
+ font-weight: normal;
+ color:#020202 !important;
+ 
+ }
+ 
+ .tabcontent:focus{
+ outline:none;
+ 
+ }
+ 
+ .tabcontent ul{ 
+ padding:0 0 0 5px;
+
+ }
+ 
+ .tabcontent ul li {
+ margin-left:15px;
+
+ }       
+
+ .tabouter { 
+ width:220px;
+ margin:5px 0 0 0 ;
+ background:transparent;
+ 
+ }
+ 
+ /***********************/
+ #ft {
+ float:left;
+ width:917px;
+ margin-left:1px;
+ background: url(../images/ft.png) 0 0 repeat-y;
+ text-align:left;
+ 
+ }
+ 
+ #wrapper-box {
+ float:left;
+ width:897px;
+ background:transparent;
+ text-align:left;
+ margin-top:0px;
+ margin-left:30px;
+ 
+ } 
+ 
+ .box {
+ float:left;
+ width:200px;
+ background:transparent;
+ margin-right:20px;
+ 
+ }
+ 
+ .box .moduletable_menu h3,
+ .box .moduletable h3,
+ .box h3 {
+ font-size:18px;
+ text-transform:capitalize;
+ text-align:left;
+ font-weight: normal;
+ color:#fff;padding:8px ;
+ 
+ }
+ 
+ .box .moduletable_menu  ,
+ .box .moduletable  ,.box  {
+ padding-bottom:5px;
+ margin-bottom:20px;
+ color:#fff;
+ 
+ }
+ 
+ .box .moduletable_menu li   ,.box .moduletable li ,.box li {
+ list-style-type:none; 
+ color:#fff;
+ padding:5px 0;
+ border-bottom:1px solid #1d1d1d;
+ 
+ }
+ 
+ .box .moduletable_menu ul  ,.box .moduletable ul,.box ul {
+ padding:0;
+ margin:0;
+ 
+ } 
+ 
+ .box .moduletable_menu  a,.box .moduletable  a,.box  a {
+ font-weight:normal;
+ color:#fff ;					
+ }
+ 
+ .box .moduletable_menu  a:hover,.box .moduletable  a:hover,.box  a:hover {
+ font-weight:normal;
+ color:#c29862; 
+ 
+ }
+ 
+ .ftb {
+ float:left;
+ text-align:center;
+ font-weight:normal;
+ font-size:13px;
+ width:894px;
+ height:57px;
+ float:left;
+ color:#fff;
+ margin-left:0px;
+ background: url(../images/ftb.png) 0 0 repeat-x;
+ margin-left:12px;
+ 
+ } 
+ 
+ .ftb-c  {
+ float:left;
+ width:800px;
+ height:25px;
+ margin-top:23px;
+ 
+ }
+ 
+ .ftb-c a, .ftb-c a:visited{
+ padding:0 !important;
+ border:none !important;
+ font-weight:bold;
+ color:#fff;
+ 
+ } 
+ 
+ .ftb a:hover {} 
+ 
+ #top {
+ float:left;
+ width:30px;
+ height:30px;
+ margin-top:12px;
+ padding:0 !important;
+ border:none !important;
+ background:transparent;
+ 
+ }
+ 
+ .top_button {padding:0 !important;
+ border:none !important;
+ 
+ }
+ 

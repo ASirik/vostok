@@ -1,0 +1,25 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { font-family: "NewsCycleRegular"; }
+
+.frontpage-teaser-1 h1, 
+.frontpage-teaser-2 h1, 
+.frontpage-teaser-3 h1 {
+	font-size: 60px;
+	line-height: 85px;
+}
+
+.frontpage-teaser-1 p, 
+.frontpage-teaser-2 p, 
+.frontpage-teaser-3 p {
+	font-size: 18px;
+	line-height: 23px;
+}
+
+.width50 .frontpage-title { font-size: 26px; }
+

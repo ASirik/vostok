@@ -1,0 +1,183 @@
+/*------------------------------------------------------------------------
+* JV Template 1.5 - March, 2009
+* ------------------------------------------------------------------------
+* Copyright (C) 2004-2008 APL Solutions And Vision Co., LTD. All Rights Reserved.
+* @license - Copyrighted Commercial Software
+* Author: APL Solutions And Vision Co., LTD
+* Websites:  http://www.joomgroup.com -  http://www.joomvision.com
+-------------------------------------------------------------------------*/
+
+/* K2 support
+--------------------------------------------------------- */
+#k2Container {
+	
+}
+div#itemListLinks {
+	background: none;
+	border: none;
+}
+#k2Container div.itemListCategory {
+	background: none;
+	border: 1px solid #262626;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+#k2Container .k2FeedIcon {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+div.itemView {
+	border-bottom: 1px dotted #262626;
+}
+#k2Container div.itemListCategory img {
+	margin: 0px 8px 0 0;
+	background: #262626;
+	border: 1px solid #262626;
+}
+
+#k2Container div.itemListCategory h3 {
+	margin: 0.5em 0;
+}
+#k2Container div.catItemHeader h3.catItemTitle {
+	font-size: 18px;
+}
+#k2Container span.catItemImage img {
+	border: 1px solid #262626;
+}
+div.catItemView {
+	border-bottom: 1px solid #262626;
+	padding: 4px 8px 14px;
+}
+div#itemListLinks div.catItemView {
+	border-bottom: 1px solid #262626;
+	padding: 0;
+}
+#k2Container .itemHitsTwitter,
+#k2Container .itemCategory,
+#k2Container .itemSocialLinksBlock {
+	border-bottom: 1px dotted #262626;
+}
+#k2Container .itemToolbar {
+	background: none;
+	border: none;
+	margin: 5px 0 0;
+}
+#k2Container div.itemToolbar ul li {
+	background: none;
+	padding: 0 8px 0 0;
+	border: none;
+}
+#k2Container span.itemImage img {
+	border: 1px solid #262626;
+}
+#k2Container div.itemComments {
+	background: none;
+}
+#k2Container div.itemNavigation {
+	background: none;
+	border-top: 1px dotted #262626;
+	border-bottom: 1px dotted #262626;
+}
+#k2Container div.itemComments {
+	border: 1px solid #262626;
+}
+#k2Container .catItemImageBlock {
+	margin: 0;
+}
+#k2Container .catItemIntroText {
+	padding: 4px 0;
+}
+#k2Container div.itemIntroText {
+	color: #5b5b5b;
+}
+#k2Container span.itemDateModified {
+	border-top: 1px solid #262626;
+}
+#k2Container div.itemAuthorBlock {
+	background: none;
+	border: 1px solid #262626;
+}
+#k2Container .odd,
+#k2Container .even {
+	background: none;
+	border-bottom: 1px dotted #262626;
+}
+div.catItemCommentsLink {
+	border-right: 1px solid #262626;
+}
+#k2Container div.catItemLinks {
+	margin: 0;
+}
+#k2Container div.catItemLinks div.catItemCategory {
+	border-bottom: none;
+}
+#k2Container div.itemCommentsForm form input.button {
+	padding: 3px 7px;
+	display: inline-block;
+	border: none;
+	cursor: pointer;
+	background: url(../images/button-big.png) no-repeat bottom left;
+}
+div.k2UserBlock ul li {
+	list-style: none;
+	clear: both;
+}
+
+div.itemCommentsForm form input.inputbox {
+	display:block;
+	height:17px;
+	line-height:24px;
+	margin:0;
+	padding:5px 5px 3px;
+	width:350px;
+}
+div.itemCommentsForm form textarea.inputbox {
+	display:block;
+	height:160px;
+	margin:0;
+	padding:5px 5px 3px;
+	width:350px;
+}
+/* Module JV K2 Content ByCategories */
+.jv-k2cat-link {
+	list-style: none;
+	margin: 0.5em 0;
+	padding: 0;
+}
+.jv-k2cat-link li {
+	line-height: 18px;
+	padding: 3px 0;
+	border-bottom: 1px solid #262626;
+	margin: 0;
+	padding-left: 18px;
+	background: url(../images/icon-li.png) no-repeat 4px 8px;
+}
+
+.jv-k2cat-link li a {
+	color: #5b5b5b;
+	text-decoration: none;
+}
+
+.jv-k2cat-children img {
+	/*width: 160px;*/
+}
+/* Module JV K2 Content Default  */
+
+.jv-k2item-pad .moduleItemTitle {
+	color:#ffffff;
+	display:block;
+	font-weight:bold;
+	text-align:left;
+	text-decoration:none;
+}
+.jv-k2items-rows {
+	border-top: 1px solid #262626;
+}
+.jv-k2items-rows p {
+	margin: 0.5em 0;
+}
+.jv-k2items-rows .jv-k2item-pad {
+	padding: 5px 0;
+}

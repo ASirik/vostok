@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" type="template" method="upgrade">
+	<name>Joostrap</name>
+	<creationDate>September 2012</creationDate>
+	<author>Fastnet</author>
+	<authorEmail>fastnetwebdesign@gmail.com</authorEmail>
+	<authorUrl>http://www.fastnetwebdesign.co.uk</authorUrl>
+	<copyright>Copyright (C) 2005 - 2012 FastnetWebDesign. All rights reserved.</copyright>
+	<version>1.2.3</version>
+	<description><![CDATA[
+	<p>Joostrap - The Twitter Bootstrap Joomla v2.5.x Template<p>
+	]]></description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>params.ini</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>fields</folder>
+		<folder>functions</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+	</files>
+	<positions>
+    <position>search</position>
+    <position>top-nav</position>
+    <position>login</position>
+    <position>header</position>
+    <position>sub-nav</position>
+    <position>above</position>
+    <position>breadcrumbs</position>
+    <position>top</position>
+    <position>search</position>
+    <position>left</position>
+    <position>above-content</position>
+    <position>below-content</position>
+    <position>right</position>
+    <position>bottom</position>
+    <position>below</position>
+    <position>footer</position>
+    <position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_joostrap.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="templates/joostrap/fields">
+			<fieldset name="basic">
+				<field name="bsMode" type="radio" default="-fluid" label="Template Width" description="Choose the width of your template">
+					<option value="">Static</option>
+					<option value="-fluid">Fluid</option>
+				</field>
+				<field name="leftColumnWidth" type="list" 
+					default="3" 
+					label="Left sidebar columns" 
+					description="Choose the left sidebar column width" >
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</field>
+				<field name="rightColumnWidth" type="list" 
+					default="3" 
+					label="Right sidebar columns" 
+					description="Choose the right sidebar column width" >
+					<option value="3">3</option>
+					<option value="4">4</option>
+				</field>
+			</fieldset>
+			<fieldset name="GOOGLEFONTS">
+				<!-- font1 -->
+				<field name="google-font1" type="googlefont" default="" label="Google Font 1" description="Choose your required font" />
+		    	<field name="google-font1-class" type="textarea" default="" label="Class" description="The class the this font should be applied to." rows="1" cols="45" />
+		    	<field name="google-font1-css" type="textarea" default="" label="Additional CSS" description="Additional CSS." rows="5" cols="45" />
+				<!-- font2 -->
+				<field name="google-font2" type="googlefont" default="Default" label="Google Font 2" description="Choose your required font" />
+	    		<field name="google-font2-class" type="textarea" default="" label="Class" description="The class the this font should be applied to." rows="1" cols="45" />
+		   		<field name="google-font2-css" type="textarea" default="" label="Additional CSS" description="Additional CSS." rows="5" cols="45" />	
+				<!-- font3 -->
+				<field name="google-font3" type="googlefont" default="Default" label="Google Font 3" description="Choose your required font" />
+		    	<field name="google-font3-class" type="textarea" default="" label="Class" description="The class the this font should be applied to." rows="1" cols="45" />
+		    	<field name="google-font3-css" type="textarea" default="" label="Additional CSS" description="Additional CSS." rows="5" cols="45" />  
+				<!-- font4 -->
+				<field name="google-font4" type="googlefont" default="Default" label="Google Font 4" description="Choose your required font" />
+		    	<field name="google-font4-class" type="textarea" default="" label="Class" description="The class the this font should be applied to." rows="1" cols="45" />
+		    	<field name="google-font4-css" type="textarea" default="" label="Additional CSS" description="Additional CSS." rows="5" cols="45" />              	    
+			</fieldset>		
+			<fieldset name="LOGO">
+				<field name="logo-type" type="list" default="image" label="Logo Type" description="Choose the type of logo you wish to use">
+					<option value="text">Site Title</option>
+					<option value="image">Image</option>
+				</field>
+				<field name="logo-image" type="media" label="Logo Image Upload" description="Upload your logo image" />
+				<field name="logo-tagline" type="text" default="" label="Logo Tagline" description="Insert tagline for logo." filter="string" />
+				<field name="display-tagline" type="list" default="0" label="Display tagline for text" description="Display tagline when logo is text.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+			<fieldset name="advanced">
+				<field
+					name="loadJquery"
+					type="list"
+					default="1"
+					label="TPL_JOOSTRAP_FIELD_LOAD_JQUERY_LABEL"
+					description="TPL_JOOSTRAP_FIELD_LOAD_JQUERY_DESC">
+						<option value="0">
+							TPL_JOOSTRAP_FIELD_LOAD_JQUERY_NO
+						</option>
+						<option value="1">
+							TPL_JOOSTRAP_FIELD_LOAD_JQUERY_LOCALLY
+						</option>
+						<option value="2">
+							TPL_JOOSTRAP_FIELD_LOAD_JQUERY_GOOGLE
+						</option>
+				</field>
+				<field
+					name="loadBootstrap"
+					type="radio"
+					default="1"
+					label="TPL_JOOSTRAP_FIELD_LOAD_BOOTSTRAP_LABEL"
+					description="TPL_JOOSTRAP_FIELD_LOAD_BOOTSTRAP_DESC">
+						<option value="1">JYES</option>
+						<option value="0">JNO</option>
+				</field>
+				
+				<field
+					name="mootoolsItemids"
+					type="text"
+					default="9999"
+					label="TPL_JOOSTRAP_FIELD_MOOTOOLS_ITEMIDS_LABEL"
+					description="TPL_JOOSTRAP_FIELD_MOOTOOLS_ITEMIDS_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

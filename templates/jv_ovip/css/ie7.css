@@ -1,0 +1,13 @@
+.button {
+	padding: 0;
+}
+#jv-search div.search {
+	margin-left: 15px;
+	width: 245px;
+}
+div.moduletable-art li a {
+	height: 27px;
+}
+div.moduletable-art li li a {
+	height: 18px;
+}
