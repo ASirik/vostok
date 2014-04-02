@@ -117,3 +117,15 @@
 	z-index: 15;
 	width: 100%;
 }
+
+
+/*custom-small-foto-gallery*/
+
+.custom-small-foto-gallery a{
+    margin-right: 10px;
+}
+
+.custom-small-foto-gallery a:last-child{
+    margin-right:0;
+}
+
